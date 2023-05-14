@@ -75,481 +75,15 @@
 	<div id="canvas">
 		<div id="box_wrapper">
 
-			<!-- template sections -->
-
-			<!--topline section visible only on small screens|-->
-			<div class="header_absolute s-pb-30">
-				<header class="page_header ds">
-					<div class="container-fluid">
-						<div class="row align-items-center">
-							<div class="col-xl-2 col-lg-3 col-11">
-								<a href="./" class="logo text-center">
-									<img src="images/.png" alt="">
-								</a>
-							</div>
-							<div class="col-xl-8 col-lg-6 col-1 text-sm-center">
-								<!-- main nav start -->
-								<nav class="top-nav">
-									<ul class="nav sf-menu">
+                {{--Section HEADER --}}
 
 
-										<li class="active">
-											<a href="index.html">Accueil</a>
-											<ul>
-												<li>
-													<a href="index.html">Home 1</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="about.html">Notre Équipe</a>
-										</li>
-										<li>
-											<a href="services1.html">Services</a>
-											<ul>
-												<li>
-													<a href="services1.html">Services 1</a>
-												</li>
-												<li>
-													<a href="services2.html">Services 2</a>
-												</li>
-												<li>
-													<a href="services3.html">Services 3</a>
-												</li>
-												<li>
-													<a href="services4.html">Services 4</a>
-												</li>
-												<li>
-													<a href="services5.html">Services 5</a>
-												</li>
-												<li>
-													<a href="service-single1.html">Single Service</a>
-													<ul>
-														<li>
-															<a href="service-single1.html">Single Service 1</a>
-														</li>
-														<li>
-															<a href="service-single2.html">Single Service 2</a>
-														</li>
-														<li>
-															<a href="service-single3.html">Single Service 3</a>
-														</li>
-														<li>
-															<a href="service-single4.html">Single Service 4</a>
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<!-- blog -->
+			@include('partials.header') {{-- Include Header --}}
 
-										<!-- gallery -->
-										<li>
-											<a href="gallery-regular.html">Nos projets</a>
-											<ul>
-												<!-- Gallery image only -->
-												<li>
-													<a href="gallery-regular.html">Gallery Regular</a>
-													<ul>
-														<li>
-															<a href="gallery-regular-2-cols.html">2 columns</a>
-														</li>
-														<li>
-															<a href="gallery-regular.html">3 columns</a>
-														</li>
-														<li>
-															<a href="gallery-regular-4-cols-fullwidth.html">4 columns fullwidth</a>
-														</li>
-
-													</ul>
-												</li>
-												<!-- eof Gallery image only -->
-
-												<!-- Gallery with title -->
-												<li>
-													<a href="gallery-title.html">Gallery Title</a>
-													<ul>
-														<li>
-															<a href="gallery-title-2-cols.html">2 columns</a>
-														</li>
-														<li>
-															<a href="gallery-title.html">3 column</a>
-														</li>
-														<li>
-															<a href="gallery-title-4-cols-fullwidth.html">4 columns fullwidth</a>
-														</li>
-													</ul>
-												</li>
-												<!-- eof Gallery with title -->
-
-												<!-- Gallery with excerpt -->
-												<li>
-													<a href="gallery-excerpt.html">Gallery Extended</a>
-													<ul>
-														<li>
-															<a href="gallery-excerpt-2-cols.html">2 columns</a>
-														</li>
-														<li>
-															<a href="gallery-excerpt.html">3 column</a>
-														</li>
-														<li>
-															<a href="gallery-excerpt-4-cols-fullwidth.html">4 columns fullwdith</a>
-														</li>
-													</ul>
-												</li>
-												<!-- eof Gallery with excerpt -->
-
-												<li>
-													<a href="gallery-tiled.html">Tiled Gallery</a>
-												</li>
-
-												<li>
-													<a href="gallery-list.html">Gallery List</a>
-												</li>
-
-												<!-- Gallery item -->
-												<li>
-													<a href="gallery-item.html">Gallery Item</a>
-													<ul>
-														<li>
-															<a href="gallery-item.html">Style 1</a>
-														</li>
-														<li>
-															<a href="gallery-item2.html">Style 2</a>
-														</li>
-														<li>
-															<a href="gallery-item3.html">Style 3</a>
-														</li>
-													</ul>
-												</li>
-												<!-- eof Gallery item -->
-											</ul>
-										</li>
-										<!-- eof Gallery -->
+                {{--Section HEADER --}}
 
 
-										<li>
-											<a href="about.html">Pages</a>
-											<ul>
-												<li>
-													<a href="process.html">Process</a>
-												</li>
-												<li>
-													<a href="clients.html">Clients</a>
-												</li>
-												<li>
-													<a href="testimonials.html">Testimonials</a>
-												</li>
-												<li>
-													<a href="pricing.html">Pricing</a>
-												</li>
 
-												<!-- shop -->
-												<li>
-													<a href="shop-right.html">Shop</a>
-													<ul>
-														<li>
-															<a href="shop-account-dashboard.html">Account</a>
-															<ul>
-
-																<li>
-																	<a href="shop-account-details.html">Account details</a>
-																</li>
-																<li>
-																	<a href="shop-account-address-edit.html">Edit Address</a>
-																</li>
-																<li>
-																	<a href="shop-account-orders.html">Orders</a>
-																</li>
-																<li>
-																	<a href="shop-account-order-single.html">Single Order</a>
-																</li>
-																<li>
-																	<a href="shop-account-downloads.html">Downloads</a>
-																</li>
-																<li>
-																	<a href="shop-account-password-reset.html">Password Reset</a>
-																</li>
-																<li>
-																	<a href="shop-account-login.html">Login/Logout</a>
-																</li>
-
-															</ul>
-														</li>
-														<li>
-															<a href="shop-right.html">Right Sidebar</a>
-														</li>
-														<li>
-															<a href="shop-left.html">Left Sidebar</a>
-														</li>
-														<li>
-															<a href="shop-product-right.html">Product Right Sidebar</a>
-														</li>
-														<li>
-															<a href="shop-product-left.html">Product Left Sidebar</a>
-														</li>
-														<li>
-															<a href="shop-cart.html">Cart</a>
-														</li>
-														<li>
-															<a href="shop-checkout.html">Checkout</a>
-														</li>
-														<li>
-															<a href="shop-order-received.html">Order Received</a>
-														</li>
-
-													</ul>
-												</li>
-												<!-- eof shop -->
-
-												<!-- features -->
-												<li>
-													<a href="shortcodes_iconbox.html">Shortcodes</a>
-													<ul>
-														<li>
-															<a href="shortcodes_typography.html">Typography</a>
-														</li>
-														<li>
-															<a href="shortcodes_buttons.html">Buttons</a>
-														</li>
-														<li>
-															<a href="shortcodes_iconbox.html">Icon Boxes</a>
-														</li>
-														<li>
-															<a href="shortcodes_progress.html">Progress</a>
-														</li>
-														<li>
-															<a href="shortcodes_tabs.html">Tabs &amp; Collapse</a>
-														</li>
-														<li>
-															<a href="shortcodes_bootstrap.html">Bootstrap Elements</a>
-														</li>
-														<li>
-															<a href="shortcodes_animation.html">Animation</a>
-														</li>
-														<li>
-															<a href="shortcodes_icons.html">Template Icons</a>
-														</li>
-														<li>
-															<a href="shortcodes_socialicons.html">Social Icons</a>
-														</li>
-													</ul>
-												</li>
-												<!-- eof shortcodes -->
-
-												<li>
-													<a href="shortcodes_widgets_default.html">Widgets</a>
-													<ul>
-														<li>
-															<a href="shortcodes_widgets_default.html">Default Widgets</a>
-														</li>
-														<li>
-															<a href="shortcodes_widgets_shop.html">Shop Widgets</a>
-														</li>
-													</ul>
-
-												</li>
-
-
-												<!-- events -->
-												<li>
-													<a href="events-left.html">Events</a>
-													<ul>
-														<li>
-															<a href="events-left.html">Left Sidebar</a>
-														</li>
-														<li>
-															<a href="events-right.html">Right Sidebar</a>
-														</li>
-														<li>
-															<a href="events-full.html">Full Width</a>
-														</li>
-														<li>
-															<a href="event-single-left.html">Single Event</a>
-															<ul>
-																<li>
-																	<a href="event-single-left.html">Left Sidebar</a>
-																</li>
-																<li>
-																	<a href="event-single-right.html">Right Sidebar</a>
-																</li>
-																<li>
-																	<a href="event-single-full.html">Full Width</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</li>
-												<!-- eof events -->
-
-												<li>
-													<a href="team-1.html">Team</a>
-													<ul>
-														<li>
-															<a href="team-1.html">Team 1</a>
-														</li>
-														<li>
-															<a href="team-2.html">Team 2</a>
-														</li>
-														<li>
-															<a href="team-single-1.html">Single Team</a>
-															<ul>
-																<li>
-																	<a href="team-single-1.html">Team Member 1</a>
-																</li>
-																<li>
-																	<a href="team-single-2.html">Team Member 2</a>
-																</li>
-																<li>
-																	<a href="team-single-3.html">Team Member 3</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</li>
-
-												<li>
-													<a href="comingsoon.html">Comingsoon</a>
-												</li>
-												<li>
-													<a href="maintenance.html">Maintenance</a>
-												</li>
-												<li>
-													<a href="faq-1.html">FAQ</a>
-													<ul>
-														<li>
-															<a href="faq-1.html">FAQ 1</a>
-														</li>
-														<li>
-															<a href="faq-2.html">FAQ 2</a>
-														</li>
-														<li>
-															<a href="faq-3.html">FAQ 3</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="404.html">404</a>
-												</li>
-
-											</ul>
-										</li>
-										<!-- eof pages -->
-
-										<li>
-											<a href="blog-1.html">Blog</a>
-											<ul>
-
-												<li>
-													<a href="blog-1.html">Blog 1</a>
-												</li>
-												<li>
-													<a href="blog-2.html">Blog 2</a>
-												</li>
-												<li>
-													<a href="blog-3.html">Blog 3</a>
-												</li>
-												<li>
-													<a href="blog-4.html">Blog 4</a>
-												</li>
-												<li>
-													<a href="blog-list.html">Blog List</a>
-												</li>
-												<li>
-													<a href="blog-masonry.html">Blog Masonry</a>
-												</li>
-
-												<li>
-													<a href="post1.html">Post</a>
-													<ul>
-														<li>
-															<a href="post1.html">Post 1</a>
-														</li>
-														<li>
-															<a href="post2.html">Post 2</a>
-														</li>
-														<li>
-															<a href="post3.html">Post 3</a>
-														</li>
-														<li>
-															<a href="post4.html">Post 4</a>
-														</li>
-														<li>
-															<a href="post5.html">Post 5</a>
-														</li>
-													</ul>
-												</li>
-
-												<li>
-													<a href="blog-single-video-right.html">Video Post</a>
-													<ul>
-														<li>
-															<a href="blog-single-video-right.html">Right Sidebar</a>
-														</li>
-														<li>
-															<a href="blog-single-video-left.html">Left Sidebar</a>
-														</li>
-														<li>
-															<a href="blog-single-video-full.html">Full Width</a>
-														</li>
-													</ul>
-												</li>
-
-											</ul>
-										</li>
-										<!-- eof blog -->
-
-										<li>
-											<a href="contact.html">Contacts</a>
-											<ul>
-												<li>
-													<a href="contact.html">Contact 1</a>
-												</li>
-												<li>
-													<a href="contact2.html">Contact 2</a>
-												</li>
-												<li>
-													<a href="contact3.html">Contact 3</a>
-												</li>
-												<li>
-													<a href="contact4.html">Contact 4</a>
-												</li>
-											</ul>
-										</li>
-										<!-- eof contacts -->
-
-
-										<!-- eof features -->
-
-										<!-- contacts -->
-
-									</ul>
-
-
-								</nav>
-								<!-- eof main nav -->
-							</div>
-							<div class="col-xl-2 col-lg-3 text-lg-left text-xl-right d-none d-lg-block">
-								<div class="header_phone">
-									<h6>
-										<span>1-800</span>-123-4567
-									</h6>
-								</div>
-							</div>
-							<div class="search-box">
-								<input type="text" name="search" placeholder="search keyword" class="search-text">
-								<a href="#" class="search-btn">
-									<i class="fa fa-search"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- header toggler -->
-					<span class="toggle_menu">
-						<span></span>
-					</span>
-				</header>
-			</div>
 			<span class="toggle_menu_side header-slide">
 				<span></span>
 			</span>
@@ -578,13 +112,13 @@
 												</div>
 												<div class="intro_layer" data-animation="fadeIn">
 													<h3 class="intro_before_featured_word">
-														<span class="color-main2">Web Design</span>,
-														<span class="color-main3">Marketing</span> &
-														<span class="color-main4">SEO</span>
+														<span class="color" style="color: #3190ee">Développement Web</span>
+{{--														<span class="color-main3">Marketing</span> &--}}
+{{--														<span class="color-main4">SEO</span>--}}
 													</h3>
 												</div>
 												<div class="intro_layer page-bottom" data-animation="expandUp">
-													<a class="btn btn-maincolor" href="about.html">Get Started</a>
+													<a class="btn btn-maincolor" href="#about">Notre expertise</a>
 												</div>
 											</div>
 											<!-- eof .intro_layers -->
@@ -727,7 +261,7 @@
 								</div>
 								<div class="item-content">
 									<h6>
-										<a href="service-single1.html">Marketing</a>
+										Statistiques Google
 									</h6>
 
 									<p>
@@ -915,210 +449,6 @@
 					<div class="divider-10 d-block d-sm-none"></div>
 					<div class="img-wrap text-center">
 						<img src="img/vertical_line2.png" alt="">
-					</div>
-					<div class=" white-button text-center">
-						<a class="btn white-btn" href="#">Get Started</a>
-					</div>
-					<div class="divider-30 d-none d-xl-block"></div>
-				</div>
-			</section>
-
-			<section class="s-pt-75 s-pt-xl-50 gallery-carousel main-gallery container-px-0" id="gallery">
-				<div class="container-fluid">
-					<div class="img-wrap text-center">
-						<img src="img/vertical_line.png" alt="">
-						<div class="divider-40 d-block d-sm-none"></div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="row justify-content-center">
-								<div class="col-md-10 col-xl-5">
-									<div class="filters gallery-filters small-text text-lg-right">
-										<a href="#" data-filter="*" class="active selected">All</a>
-										<a href="#" data-filter=".web-design">Web Design</a>
-										<a href="#" data-filter=".logo-design">Logo Design</a>
-										<a href="#" data-filter=".advertisement">Advertisement</a>
-										<a href="#" data-filter=".branding">Branding</a>
-										<a href="#" data-filter=".design">Design</a>
-										<a href="#" data-filter=".photo">Photo</a>
-									</div>
-								</div>
-							</div>
-							<div class="owl-carousel gallery-owl-nav" data-autoplay="false" data-responsive-lg="5" data-responsive-md="3" data-responsive-sm="3" data-responsive-xs="2" data-nav="true" data-dots="false" data-filters=".gallery-filters" data-margin="0" data-loop="true">
-								<div class="vertical-item item-gallery content-absolute text-center ds web-design">
-									<div class="item-media">
-										<img src="images/gallery/gallery-1.jpg" alt="">
-										<div class="media-links">
-
-										</div>
-									</div>
-									<div class="item-content">
-										<h6>
-											<a class="small-text" href="gallery-regular.html">web-design</a>
-										</h6>
-										<h6>
-											<a href="gallery-regular.html">Clothes Badge Design</a>
-										</h6>
-									</div>
-								</div>
-								<div class="vertical-item item-gallery content-absolute text-center ds logo-design">
-									<div class="item-media">
-										<img src="images/gallery/gallery-2.jpg" alt="">
-										<div class="media-links">
-
-										</div>
-									</div>
-									<div class="item-content">
-										<h6>
-											<a class="small-text" href="gallery-regular.html">logo-design</a>
-										</h6>
-										<h6>
-											<a href="gallery-regular.html">Clothes Badge Design</a>
-										</h6>
-									</div>
-								</div>
-								<div class="vertical-item item-gallery content-absolute text-center ds advertisement">
-									<div class="item-media">
-										<img src="images/gallery/gallery-3.jpg" alt="">
-										<div class="media-links">
-
-										</div>
-									</div>
-									<div class="item-content">
-										<h6>
-											<a class="small-text" href="gallery-regular.html">advertisement</a>
-										</h6>
-										<h6>
-											<a href="gallery-regular.html">Clothes Badge Design</a>
-										</h6>
-									</div>
-								</div>
-								<div class="vertical-item item-gallery content-absolute text-center ds branding">
-									<div class="item-media">
-										<img src="images/gallery/gallery-4.jpg" alt="">
-										<div class="media-links">
-
-										</div>
-									</div>
-									<div class="item-content">
-										<h6>
-											<a class="small-text" href="gallery-regular.html">branding</a>
-										</h6>
-										<h6>
-											<a href="gallery-regular.html">Clothes Badge Design</a>
-										</h6>
-									</div>
-								</div>
-								<div class="vertical-item item-gallery content-absolute text-center ds design">
-									<div class="item-media">
-										<img src="images/gallery/gallery-5.jpg" alt="">
-										<div class="media-links">
-
-										</div>
-									</div>
-									<div class="item-content">
-										<h6>
-											<a class="small-text" href="gallery-regular.html">design</a>
-										</h6>
-										<h6>
-											<a href="gallery-regular.html">Clothes Badge Design</a>
-										</h6>
-									</div>
-								</div>
-								<div class="vertical-item item-gallery content-absolute text-center ds photo">
-									<div class="item-media">
-										<img src="images/gallery/gallery-6.jpg" alt="">
-										<div class="media-links">
-
-										</div>
-									</div>
-									<div class="item-content">
-										<h6>
-											<a class="small-text" href="gallery-regular.html">photo</a>
-										</h6>
-										<h6>
-											<a href="gallery-regular.html">Clothes Badge Design</a>
-										</h6>
-									</div>
-								</div>
-							</div>
-							<!-- .owl-carousel-->
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="page_slider team_slider" id="team">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="shortcode-team-slider main-team">
-							<h3 class="slider-title">Team</h3>
-							<div class="flexslider team-slider" data-nav="false" data-dots="true">
-								<ul class="slides">
-									<li class="ls">
-										<img src="images/team/team_slide_01.jpg" alt="">
-									</li>
-									<li class="ls">
-										<img src="images/team/team_slide_02.jpg" alt="">
-									</li>
-									<li class="ls">
-										<img src="images/team/team_slide_03.jpg" alt="">
-									</li>
-									<li class="ls">
-										<img src="images/team/team_slide_04.jpg" alt="">
-									</li>
-								</ul>
-							</div>
-							<!-- eof flexslider -->
-							<div class="flexslider-controls">
-								<ul class="flex-control-nav-1">
-									<li class="menu_item flex-active">
-										Gregory F. Parrino
-										<span class="position">CEO</span>
-										<span class="team-social-icons">
-											<span class="social-icons">
-												<a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
-												<a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
-												<a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
-											</span>
-										</span>
-									</li>
-									<li class="menu_item">
-										Letha L. Young
-										<span class="position">Designer</span>
-										<span class="team-social-icons">
-											<span class="social-icons">
-												<a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
-												<a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
-												<a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
-											</span>
-										</span>
-									</li>
-									<li class="menu_item">
-										Harold D. Cote
-										<span class="position">Developer</span>
-										<span class="team-social-icons">
-											<span class="social-icons">
-												<a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
-												<a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
-												<a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
-											</span>
-										</span>
-									</li>
-									<li class="menu_item">
-										Oren R. Odom
-										<span class="position">Marketer</span>
-										<span class="team-social-icons">
-											<span class="social-icons">
-												<a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
-												<a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
-												<a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
-											</span>
-										</span>
-									</li>
-								</ul>
-							</div>
-						</div>
 					</div>
 				</div>
 			</section>
@@ -1394,18 +724,18 @@
 							<div class="divider-35"></div>
 							<div class="content">
 								<h1>
-									Lets Get Started
-									<br> Your Project
+									Lancez-vous dans l'aventure
+									<br> De votre projet
 								</h1>
 								<p>
-									We’ll help to achieve your goals and to grow business
+									Nous vous aiderons à développer votre projet
 								</p>
 								<div class="divider-30"></div>
 							</div>
 							<img src="img/vertical_line.png" alt="">
 							<div>
 								<div class="divider-40"></div>
-								<a href="#" class="btn btn-outline-maincolor">Let’s Talk!</a>
+								<a href="#" class="btn btn-outline-maincolor">Parlons-en ! </a>
 								<div class="divider-30"></div>
 							</div>
 							<div class="img-wrap overflow-visible">
@@ -1433,7 +763,7 @@
 								</div>
 							</div>
 							<h6>
-								Call Us
+								Contactez-nous
 							</h6>
 							<p>
 								<strong>New Accounts:</strong> 1-800-123-4567
@@ -1448,7 +778,7 @@
 								</div>
 							</div>
 							<h6>
-								Write Us
+								Écrivez-nous
 							</h6>
 							<p>
 								example@example.com
