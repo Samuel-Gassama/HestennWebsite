@@ -14,101 +14,17 @@
 
 
                         <li class="active">
-                            <a href="index.html">Accueil</a>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home 1</a>
-                                </li>
-                            </ul>
+                            <a href="index.html">Accueil</a>                         
                         </li>
                         <li>
                             <a href="#">Services</a>
-                            <ul>
-                            </ul>
                         </li>
                         <!-- blog -->
 
                         <!-- gallery -->
                         <li>
                             <a href="gallery-regular.html">Nos projets</a>
-                            <ul>
-                                <!-- Gallery image only -->
-                                <li>
-                                    <a href="gallery-regular.html">Gallery Regular</a>
-                                    <ul>
-                                        <li>
-                                            <a href="gallery-regular-2-cols.html">2 columns</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-regular.html">3 columns</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-regular-4-cols-fullwidth.html">4 columns fullwidth</a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <!-- eof Gallery image only -->
-
-                                <!-- Gallery with title -->
-                                <li>
-                                    <a href="gallery-title.html">Gallery Title</a>
-                                    <ul>
-                                        <li>
-                                            <a href="gallery-title-2-cols.html">2 columns</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-title.html">3 column</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-title-4-cols-fullwidth.html">4 columns fullwidth</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- eof Gallery with title -->
-
-                                <!-- Gallery with excerpt -->
-                                <li>
-                                    <a href="gallery-excerpt.html">Gallery Extended</a>
-                                    <ul>
-                                        <li>
-                                            <a href="gallery-excerpt-2-cols.html">2 columns</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-excerpt.html">3 column</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-excerpt-4-cols-fullwidth.html">4 columns fullwdith</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- eof Gallery with excerpt -->
-
-                                <li>
-                                    <a href="gallery-tiled.html">Tiled Gallery</a>
-                                </li>
-
-                                <li>
-                                    <a href="gallery-list.html">Gallery List</a>
-                                </li>
-
-                                <!-- Gallery item -->
-                                <li>
-                                    <a href="gallery-item.html">Gallery Item</a>
-                                    <ul>
-                                        <li>
-                                            <a href="gallery-item.html">Style 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-item2.html">Style 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery-item3.html">Style 3</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <!-- eof Gallery item -->
-                            </ul>
+                           
                         </li>
                         <!-- eof pages -->
 
@@ -118,28 +34,8 @@
                         <!-- eof blog -->
 
                         <li>
-                            <a href="contact.html">Contacts</a>
-                            <ul>
-                                <li>
-                                    <a href="contact.html">Contact 1</a>
-                                </li>
-                                <li>
-                                    <a href="contact2.html">Contact 2</a>
-                                </li>
-                                <li>
-                                    <a href="contact3.html">Contact 3</a>
-                                </li>
-                                <li>
-                                    <a href="contact4.html">Contact 4</a>
-                                </li>
-                            </ul>
+                            <a href="contact.html">Contacts</a>           
                         </li>
-                        <!-- eof contacts -->
-
-
-                        <!-- eof features -->
-
-                        <!-- contacts -->
 
                     </ul>
 

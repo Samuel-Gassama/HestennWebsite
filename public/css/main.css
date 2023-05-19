@@ -14907,14 +14907,14 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 200px;
+		font-size: 85px;
 		font-weight: 600;
 		margin-bottom: 20px;
 		white-space: nowrap;
 	}
 
 	.container .page_slider .intro_featured_word {
-		font-size: 138px;
+		font-size: 85px;
 	}
 }
 
