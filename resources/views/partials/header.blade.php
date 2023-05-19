@@ -14,8 +14,8 @@
                     <ul class="nav sf-menu">
 
 
-                        <li class="active">
-                            <a href="index.html">Accueil</a>                         
+                        <li>
+                            <a href="#Accueil">Accueil</a>                         
                         </li>
                         <li>
                             <a href="#Service">Services</a>
@@ -59,24 +59,4 @@
 </header>
 </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Select all navigation links
-      const navLinks = document.querySelectorAll("nav a");
-
-// Attach click event listeners to the navigation links
-      navLinks.forEach(function(link) {
-        link.addEventListener("click", function(e) {
-      e.preventDefault();
-
-  // Get the target section ID from the href attribute
-      const targetId = this.getAttribute("href");
-
-  // Scroll smoothly to the target section
-      document.querySelector(targetId).scrollIntoView({
-        behavior: "smooth"
-          });
-});
-});
-});
-</script>
+<script src="js/navigation.js"></script>
