@@ -16,6 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">--}}
@@ -42,21 +43,6 @@
 		<div class="preloader_image"></div>
 	</div>
 
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">&times;</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form" action="/">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="btn">Search</button>
-			</form>
-		</div>
-	</div>
-
 	<!-- Unyson messages modal -->
 	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
 		<div class="fw-messages-wrap ls p-normal">
@@ -76,14 +62,9 @@
 		<div id="box_wrapper">
 
                 {{--Section HEADER --}}
-
-
 			@include('partials.header') {{-- Include Header --}}
 
                 {{--Section HEADER --}}
-
-
-
 			<span class="toggle_menu_side header-slide">
 				<span></span>
 			</span>
@@ -102,13 +83,13 @@
 										<div class="intro_layers_wrapper">
 											<div class="intro_layers">
 												<div class="intro_layer" data-animation="fadeIn">
-													<p class="text-uppercase intro_after_featured_word">Bienvenue chez</p>
+													<p class="text-uppercase intro_after_featured_word">Hestenn</p>
 												</div>
 
 												<div class="intro_layer" data-animation="slideRight">
-													<h2 class="text-uppercase intro_featured_word">
-														Hestenn
-													</h2>
+													<h4 class="intro_featured_word">
+														Donnez vie à votre projet web
+													</h4>
 												</div>
 												<div class="intro_layer" data-animation="fadeIn">
 													<h3 class="intro_before_featured_word">
