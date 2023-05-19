@@ -52,13 +52,6 @@
 	<!-- Unyson messages modal -->
 	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
 		<div class="fw-messages-wrap ls p-normal">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
-
 		</div>
 	</div>
 	<!-- eof .modal -->
@@ -71,9 +64,9 @@
 			@include('partials.header') {{-- Include Header --}}
 
                 {{--Section HEADER --}}
-			<span class="toggle_menu_side header-slide">
+			{{-- <span class="toggle_menu_side header-slide">
 				<span></span>
-			</span>
+			</span> --}}
 
 			<section class="page_slider main_slider">
 				<div class="flexslider" data-nav="true" data-dots="false">
@@ -81,7 +74,7 @@
 						<li class="ds text-center slide1">
 								<img class="blur-image" src="img/landing.jpg"/>
 							</span>
-							<div class="container">
+							<div id="Accueil" class="container">
 								<div class="row">
 									<div class="col-12 itro_slider">
 										<div class="intro_layers_wrapper">
@@ -101,10 +94,7 @@
 {{--														<span class="color-main3">Marketing</span> &--}}
 {{--														<span class="color-main4">SEO</span>--}}
 													</h3>
-												</div>
-												<div class="intro_layer page-bottom" data-animation="expandUp">
-													<a class="btn btn-maincolor" href="#about">Notre expertise</a>
-												</div>
+												</div>				
 											</div>
 											<!-- eof .intro_layers -->
 										</div>
@@ -121,14 +111,14 @@
 				</div>
 				<!-- eof flexslider -->
 				<div class="flexslider-bottom d-none d-xl-block">
-					<a href="#about" class="mouse-button animated floating"></a>
+					<a href="#Service" class="mouse-button animated floating"></a>
 				</div>
 			</section>
 			<div class="divider-10 d-block d-sm-none"></div>
 			<section class="s-pt-30 s-pt-lg-50 s-pt-xl-25 ls about-home" id="about">
 				<div class="divider-5 d-none d-xl-block"></div>
 				<div class="container">
-					<div class="row">
+					<div id="Service" class="row">
 						<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 							<div class="main-content text-center">
 								<div class="img-wrap text-center">
@@ -156,7 +146,7 @@
 				<div class="divider-10 d-block d-sm-none"></div>
 			</section>
 
-			<section class="s-pt-30 s-pb-3 service-item2 ls animate" id="services" data-animation="fadeInUp">
+			<section class="s-pt-30 s-pb-3 service-item2 ls animate" data-animation="fadeInUp">
 				<div class="container">
 					<div class="row c-mb-50 c-mb-md-60">
 						<div class="d-none d-lg-block divider-20"></div>
@@ -360,7 +350,7 @@
 				</div>
 			</section>
 
-			<section class="ls s-pt-50 s-pb-130 gallery-title">
+			<section id="Projets" class="ls s-pt-50 s-pb-130 gallery-title">
 							<div class="text-block text-center">	
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
@@ -381,16 +371,16 @@
 					
 														<div class="vertical-item text-center ls ms">
 															<div class="item-media">
-																<img src="images/gallery/01.jpg" alt="">
-																<div class="media-links">
+																	<img src="img/chatallaitement.png" alt="Chat Allaitement">
+																<div class="media-links">																
 																</div>
 															</div>
 															<div class="item-content">
 																<h6>
-																	<a href="/gallery-item3.html">Allaitement Québec</a>
+																	<a>Allaitement Québec</a>
 																</h6>
 																<div class="small-text link-a">
-																	<a href="https://chat.allaitementquebec.org/">chat.allaitementquebec.org</a>
+																	<a href="https://chat.allaitementquebec.org/" target="_blank">chat.allaitementquebec.org</a>
 																</div>
 					
 															</div>
@@ -401,16 +391,16 @@
 													<div class="col-xl-6 col-sm-6 advertisement branding">
 														<div class="vertical-item text-center ls ms">
 															<div class="item-media">
-																<img src="images/gallery/02.jpg" alt="">
-																<div class="media-links">
+																		<img src="img/festivalcanin.png" alt="">
+																<div class="media-links">	
 																</div>
 															</div>
 															<div class="item-content">
 																<h6>
-																	<a href="/gallery-item3.html">Festival canin de Dégelis</a>
+																	<a>Festival canin de Dégelis</a>
 																</h6>
 																<div class="small-text link-a">
-																	<a href="https://www.festivalcanin.com/">festivalcanin.com</a>
+																	<a href="https://www.festivalcanin.com/" target="_blank">festivalcanin.com</a>
 																</div>
 					
 															</div>
@@ -536,14 +526,14 @@
 					</div>
 				</div>
 				<div class="testimonials-btn text-center">
-					<a href="#quote" class="btn-maincolor">
+					<a href="#Accueil" class="btn-maincolor">
 						<i class="fa fa-angle-up"></i>
 					</a>
 				</div>
 				<div class="corner corner-light"></div>
 			</section>
 
-			<section class="s-pt-130 s-pt-md-50 ls text-section">
+			<section id="Contacte" class="s-pt-130 s-pt-md-50 ls text-section">
 				<div class="divider-30"></div>
 				<div class="container">
 					<div class="row">
@@ -563,7 +553,7 @@
 							<img src="img/vertical_line.png" alt="">
 							<div>
 								<div class="divider-40"></div>
-								<a href="#" class="btn btn-outline-maincolor">Parlons-en ! </a>
+								<a href="#ContacteForm" class="btn btn-outline-maincolor">Parlons-en ! </a>
 								<div class="divider-30"></div>
 							</div>
 							<div class="img-wrap overflow-visible">
@@ -583,7 +573,7 @@
 					<div class="divider-60 d-none d-xl-block"></div>
 					<div class="row">
 						<div class="col-lg-12 ">
-							<form class="contact-form" method="post" action="/">
+							<for class="contact-form" method="post" action="/">
 
 								<div class="row c-gutter-20">
 
@@ -674,7 +664,7 @@
 
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
-
+	<script src="js/navigation.js"></script>
 
 </body>
 
