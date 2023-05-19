@@ -224,21 +224,15 @@
 									<div class="divider-35"></div>
 								</div>
 								<h5>
-									We are the one of the most effective Web Design Companies
+									Un service personnalisé qui répond à vos besoins
 								</h5>
 								<p>
-									Getting online is easy. Succeeding online is a different story. You’ll need more than just a beautiful website to stand out these days.
-									<strong>Online marketing solutions.</strong> Conversion-based web design coupled with a lead generating marketing plan, your online success is inevitable.
+									Faites l'expérience d'un service sur mesure, conçu pour vous offrir des solutions web performantes et adaptées à vos besoins spécifiques.
 								</p>
 								<div class="divider-30"></div>
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
-								</div>
-								<div>
-									<div class="divider-40"></div>
-									<button type="button" class="btn btn-outline-maincolor">Get Started</button>
-									<div class="divider-40"></div>
-								</div>
+								</div>					
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
 								</div>
@@ -265,7 +259,7 @@
 									</h6>
 
 									<p>
-										We use strategic marketing tactics that have been proven to work.
+										 Profitez d'un suivi clair et personnalisé de vos performances en ligne.
 									</p>
 
 								</div>
@@ -279,11 +273,11 @@
 								</div>
 								<div class="item-content">
 									<h6>
-										<a href="service-single1.html">Development</a>
+										<a href="service-single1.html">Développement</a>
 									</h6>
 
 									<p>
-										Custom programming for most complex functions you can think.
+										Bénéficiez d'un développement web professionnel et sur mesure pour créer un site adapté à vos besoins et objectifs.
 									</p>
 
 								</div>
@@ -297,11 +291,11 @@
 								</div>
 								<div class="item-content">
 									<h6>
-										<a href="service-single1.html">Web Design</a>
+										<a href="service-single1.html">Désigne</a>
 									</h6>
 
 									<p>
-										Pork chop pork belly hamburger prosciutto, fatback andouille flank.
+										Captez l'attention de vos visiteurs grâce à un design unique et attrayant qui reflète parfaitement votre identité.
 									</p>
 								</div>
 							</div>
@@ -314,11 +308,11 @@
 								</div>
 								<div class="item-content">
 									<h6>
-										<a href="service-single1.html">SEO Optimization</a>
+										<a href="service-single1.html">Optimisation SEO</a>
 									</h6>
 
 									<p>
-										Optimizing our web designs to rank on the first page of google is our specialty.
+										Améliorer votre visibilité et attirer plus de visiteur.
 									</p>
 								</div>
 							</div>
@@ -335,7 +329,8 @@
 									</h6>
 
 									<p>
-										We build your online store using a flexible, modular platform that allows
+										Développer et multiplier vos ventes grâce à une boutique en ligne optimisée, conçue pour offrir une expérience d'achat irréprochable à vos clients.
+
 									</p>
 
 								</div>
@@ -353,7 +348,7 @@
 									</h6>
 
 									<p>
-										A solid brand strategy, logo and guidelines help you to get You recognized.
+										Créer et établissez une image en ligne reflètent vos valeurs et votre vision.
 									</p>
 
 								</div>
@@ -367,15 +362,15 @@
 				</div>
 			</section>
 
-
 			<section class="s-pt-100 s-pt-lg-130 ds process-part skew_right s-parallax top_white_line_big overflow-visible" id="steps">
 				<div class="container">
 					<div class="divider-65"></div>
+					
 					<div class="row align-items-center c-mb-20 c-mb-lg-60">
 						<div class="col-12 col-lg-4">
 							<div class="step-left-part text-right">
 								<h2 class="step-title">
-									<span class="color-main">01</span>Strategy</h2>
+									<span class="color-main">01</span>Collaboration Étroite</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4">
@@ -385,7 +380,7 @@
 						</div>
 						<div class="col-12 col-lg-4">
 							<div class="step-right-part">
-								<p class="step-text">We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
+								<p class="step-text">Travaillons main dans la main lors de chaque étape de votre projet. Vos idées et vos retours sont essentiels pour nous assurer que le résultat final répond à vos attentes.</p>
 							</div>
 						</div>
 					</div>
@@ -394,7 +389,7 @@
 						<div class="col-12 col-lg-4  order-lg-3">
 							<div class="step-left-part">
 								<h2 class="step-title color1">
-									<span class="color-main2">02</span>Design</h2>
+									<span class="color-main2">02</span>Livraison continue</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 order-lg-2">
@@ -404,7 +399,7 @@
 						</div>
 						<div class="col-12 col-lg-4 order-lg-1 text-right">
 							<div class="step-right-part ">
-								<p class="step-text">Color scheme, layout, sitemap, and style. We will bring your brand to life with a one of a kind masterpiece, built just for you.</p>
+								<p class="step-text">Nous livrons votre projet en plusieurs étapes, vous permettant de visualiser les progrès, de donner votre avis et d'apporter des modifications si nécessaire.</p>
 							</div>
 						</div>
 					</div>
@@ -413,7 +408,7 @@
 						<div class="col-12 col-lg-4">
 							<div class="step-left-part text-right part3">
 								<h2 class="step-title">
-									<span class="color-main3">03</span>Develop</h2>
+									<span class="color-main3">03</span>Flexibilité et Adaptabilité</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4">
@@ -423,7 +418,7 @@
 						</div>
 						<div class="col-12 col-lg-4">
 							<div class="step-right-part">
-								<p class="step-text">We turn your ideas into a reality. &our website is placed on a "development server" where you get to watch the whole process, live.</p>
+								<p class="step-text">Grâce à la méthode agile, nous sommes en mesure de nous adapter rapidement aux changements, garantissant ainsi que votre projet reste aligné avec vos objectifs même si ceux-ci évoluent.</p>
 							</div>
 						</div>
 					</div>
@@ -432,7 +427,7 @@
 						<div class="col-12 col-lg-4  order-lg-3">
 							<div class="step-left-part part4">
 								<h2 class="step-title color1">
-									<span class="color-main4">04</span>Support</h2>
+									<span class="color-main4">04</span>Perfectionnement Progressif</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 order-lg-2">
@@ -442,7 +437,7 @@
 						</div>
 						<div class="col-12 col-lg-4 order-lg-1 text-right">
 							<div class="step-right-part ">
-								<p class="step-text">This is where you go live, to the world. Design, marketing, and maintenance; we'll be at your side for the life of your site.</p>
+								<p class="step-text"> Au fil des itérations, nous affinons et améliorons votre projet pour assurer une qualité optimale et une correspondance parfaite avec vos besoins.</p>
 							</div>
 						</div>
 					</div>
@@ -453,105 +448,83 @@
 				</div>
 			</section>
 
-			<section class="ls ms book-item s-pb-30 s-pb-lg-25">
-				<div class="corner corner-light"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 offset-md-2">
-							<div class="text-block text-center">
-								<div class="btn-book-section overflow-visible">
-									<a href="#" class="btn btn-maincolor">Get Started</a>
-								</div>
+			<section class="ls s-pt-50 s-pb-130 gallery-title">
+							<div class="text-block text-center">	
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
 									<div class="divider-35"></div>
 								</div>
 								<h5>
-									B2B Marketing & Web Design
-									<br> Resources
+									Nos projets
 								</h5>
-								<p>
-									B2B client acquisition is not the same as B2C– a B2B website, brand messaging and content marketing play a much different role. We understand the B2B marketing and sales funnel and the tactics that generate and nurture ideal client leads.
-								</p>
-								<div class="divider-30"></div>
-								<div class="img-wrap text-center">
-									<img src="img/vertical_line.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="divider-40"></div>
-						<div class="row c-gutter-30 c-mb-30 c-mb-lg-0 text-center book">
-							<div class="col-12 col-lg-4">
-								<div class="stage book-1 ls">
-									<img src="images/book-1.png" alt="#">
-									<div class="info">
-										<header>
-											<h6>
-												<a href="#">Annual Report
-													<br>2017-2018</a>
-											</h6>
-										</header>
-										<p>
-											At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
-										</p>
-										<p class="small-text link-a">
-											<a href="#">Buy It Now!</a>
-										</p>
+									<div class="d-none d-lg-block divider-20"></div>
+									<div class="container">
+										<div class="row">
+											<div class="col-lg-12">
+												
+					
+												<div class="row isotope-wrapper masonry-layout c-gutter-10 c-mb-10" data-filters=".gallery-filters">
+					
+													<div class="col-xl-6 col-sm-6 web-design logo-design">
+					
+														<div class="vertical-item text-center ls ms">
+															<div class="item-media">
+																<img src="images/gallery/01.jpg" alt="">
+																<div class="media-links">
+																</div>
+															</div>
+															<div class="item-content">
+																<h6>
+																	<a href="/gallery-item3.html">Allaitement Québec</a>
+																</h6>
+																<div class="small-text link-a">
+																	<a href="https://chat.allaitementquebec.org/">chat.allaitementquebec.org</a>
+																</div>
+					
+															</div>
+														</div>
+					
+													</div>
+					
+													<div class="col-xl-6 col-sm-6 advertisement branding">
+														<div class="vertical-item text-center ls ms">
+															<div class="item-media">
+																<img src="images/gallery/02.jpg" alt="">
+																<div class="media-links">
+																</div>
+															</div>
+															<div class="item-content">
+																<h6>
+																	<a href="/gallery-item3.html">Festival canin de Dégelis</a>
+																</h6>
+																<div class="small-text link-a">
+																	<a href="https://www.festivalcanin.com/">festivalcanin.com</a>
+																</div>
+					
+															</div>
+														</div>
+													</div>
+											</div>
+												<!-- .isotope-wrapper-->			
+											</div>
+										</div>
 									</div>
-								</div>
-							</div>
-							<div class="col-12 col-lg-4">
-								<div class="stage book-2 ds">
-									<img src="images/book-2.png" alt="#">
-									<div class="info">
-										<header>
-											<h6>
-												<a href="#">Tools of Trading: Modern Marketing</a>
-											</h6>
-										</header>
-										<p>
-											Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam numy eirmod.
-										</p>
-										<p class="small-text link-a">
-											<a href="#">Buy It Now!</a>
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-lg-4">
-								<div class="stage book-3 ls">
-									<img src="images/book-3.png" alt="#">
-									<div class="info">
-										<header>
-											<h6>
-												<a href="#">Business Magazine: Design</a>
-											</h6>
-										</header>
-										<p>
-											Et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
-										</p>
-										<p class="small-text link-a">
-											<a href="#">Buy It Now!</a>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+									<div class="d-none d-lg-block divider-75"></div>
+
 						<div class="divider-30"></div>
 						<div class="text-center img-wrap col-md-12">
 							<div>
 								<img src="img/vertical_line.png" alt="">
 							</div>
 							<div class="divider-40"></div>
-							<a href="#" class="btn btn-outline-maincolor">Get Started</a>
+							<h4>Témoignages</h4>
 							<div class="divider-40"></div>
 							<div>
 								<img src="img/vertical_line.png" alt="">
 							</div>
-						</div>
-					</div>
+
+
 					<div class="divider-10"></div>
-				</div>
 			</section>
 
 			<section class="ls ms blog-post-carousel">
@@ -641,65 +614,8 @@
 				<div class="corner ls ms"></div>
 				<div class="container">
 					<div class="row c-mt-30 c-mt-md-0">
-						<div class="divider-20"></div>
-						<div class="text-center img-wrap line col-md-12">
-							<img src="img/vertical_line2.png" alt="">
-						</div>
 						<div class="divider-40 d-none d-md-block"></div>
-						<div class="col-md-12">
-							<div class="owl-carousel" data-autoplay="false" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-nav="false" data-dots="true" id="quote">
-								<div class="quote-item">
-									<div class="quote-image">
-										<img src="images/team/testimonials_02.jpg" alt="">
-									</div>
-									<p class="small-text author-job">
-										Eye Insurance
-									</p>
-									<h5>
-										<a href="#">George M. Baty</a>
-									</h5>
-									<p>
-										<em class="big">
-											I needed more leads for my services. Pay-per-click, banners of maybe even broschures. They made an analysis of my existing site. It occurred that my webdite is banned with Google, and I never knew about that!
-										</em>
-									</p>
-								</div>
-								<div class="quote-item">
-									<div class="quote-image">
-										<img src="images/team/testimonials_01.jpg" alt="">
-									</div>
-									<p class="small-text author-job">
-										Moving co
-									</p>
-									<h5>
-										<a href="#">Jeffrey P. McAllister</a>
-									</h5>
-									<p>
-										<em class="big">
-											I highly recommend this company for all and any of your design needs. I am very happy with the new redesigned and restructured website they built for my moving company!
-										</em>
-									</p>
-								</div>
-								<div class="quote-item">
-									<div class="quote-image">
-										<img src="images/team/testimonials_03.jpg" alt="">
-									</div>
-									<p class="small-text author-job">
-										Paradox Inc
-									</p>
-									<h5>
-										<a href="#">Josephine B. Anderson</a>
-									</h5>
-									<p>
-										<em class="big">
-											This guys are awesome! It is hard to find a web design company who can actually listen and understand what you need. I’m 100% satisfied with this guys. My website is exactly what I needed and even more...
-										</em>
-									</p>
-
-								</div>
-							</div>
-							<!-- .testimonials-slider -->
-						</div>
+						
 						<div class="divider-55 d-none d-md-block"></div>
 						<div class="text-center img-wrap col-md-12">
 							<img src="img/vertical_line2.png" alt="">
