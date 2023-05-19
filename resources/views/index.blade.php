@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-	<title>Hestenn Development</title>
+	<title>Hestenn</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">--}}
@@ -34,27 +35,18 @@
 </head>
 
 <body>
+
+	<style>
+		.blur-image {
+		  filter: blur(5px) grayscale(50%); /* Adjust the blur amount as desired */
+		}
+	  </style>
 	<!--[if lt IE 9]>
 		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
 	<![endif]-->
 
 	<div class="preloader">
 		<div class="preloader_image"></div>
-	</div>
-
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">&times;</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form" action="/">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="btn">Search</button>
-			</form>
-		</div>
 	</div>
 
 	<!-- Unyson messages modal -->
@@ -76,14 +68,9 @@
 		<div id="box_wrapper">
 
                 {{--Section HEADER --}}
-
-
 			@include('partials.header') {{-- Include Header --}}
 
                 {{--Section HEADER --}}
-
-
-
 			<span class="toggle_menu_side header-slide">
 				<span></span>
 			</span>
@@ -92,9 +79,7 @@
 				<div class="flexslider" data-nav="true" data-dots="false">
 					<ul class="slides">
 						<li class="ds text-center slide1">
-							<span class="flexslider-overlay"></span>
-							<span class="embed-responsive embed-responsive-16by9">
-								<iframe src="https://www.youtube.com/embed/UBufeh1yv2c?feature=oembed&;showinfo=0&;autoplay=1&;controls=0&;mute=1&;loop=1&;playlist=UBufeh1yv2c" allowfullscreen=""></iframe>
+								<img class="blur-image" src="img/landing.jpg"/>
 							</span>
 							<div class="container">
 								<div class="row">
@@ -102,13 +87,13 @@
 										<div class="intro_layers_wrapper">
 											<div class="intro_layers">
 												<div class="intro_layer" data-animation="fadeIn">
-													<p class="text-uppercase intro_after_featured_word">Bienvenue chez</p>
+													<p class="text-uppercase intro_after_featured_word">Hestenn</p>
 												</div>
 
 												<div class="intro_layer" data-animation="slideRight">
-													<h2 class="text-uppercase intro_featured_word">
-														Hestenn
-													</h2>
+													<h4 class="intro_featured_word">
+														Donnez vie à votre projet web
+													</h4>
 												</div>
 												<div class="intro_layer" data-animation="fadeIn">
 													<h3 class="intro_before_featured_word">
@@ -130,80 +115,7 @@
 								<!-- eof .row -->
 							</div>
 							<!-- eof .container -->
-						</li>
-						<li class="ds text-center slide2">
-							<span class="flexslider-overlay"></span>
-							<img src="images/slide_02.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-12 itro_slider">
-										<div class="intro_layers_wrapper">
-											<div class="intro_layers">
-												<div class="intro_layer" data-animation="fadeIn">
-													<h3 class="text-lowercase intro_before_featured_word">
-														Online
-													</h3>
-												</div>
-												<div class="intro_layer" data-animation="fadeIn">
-													<h2 class="text-uppercase intro_featured_word">
-														Marketing
-													</h2>
-												</div>
-												<div class="intro_layer" data-animation="pullDown">
-													<p class="text-uppercase intro_after_featured_word">Solutions</p>
-												</div>
-												<div class="intro_layer page-bottom" data-animation="expandUp">
-													<a class="btn btn-maincolor" href="about.html">Get Started</a>
-												</div>
-											</div>
-											<!-- eof .intro_layers -->
-										</div>
-										<!-- eof .intro_layers_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-						<li class="ds text-center slide3">
-							<img src="images/slide_03.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-12 itro_slider">
-										<div class="intro_layers_wrapper">
-											<div class="intro_layers">
-												<div class="intro_layer" data-animation="fadeInRight">
-													<h2 class="text-uppercase intro_featured_word light">
-														Modern
-													</h2>
-												</div>
-												<div class="intro_layer" data-animation="fadeIn">
-													<h2 class="text-uppercase intro_featured_word bold">
-														Marketing & design
-													</h2>
-												</div>
-												<div class="intro_layer" data-animation="fadeIn">
-													<h2 class="text-uppercase intro_featured_word">
-														That works
-													</h2>
-												</div>
-
-												<div class="intro_layer page-bottom" data-animation="expandUp">
-													<a class="btn btn-maincolor" href="about.html">Get Started</a>
-													<a class="btn btn-outline-maincolor" href="#">our folio</a>
-												</div>
-											</div>
-											<!-- eof .intro_layers -->
-										</div>
-										<!-- eof .intro_layers_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
+						</li>		
 
 					</ul>
 				</div>
@@ -224,21 +136,15 @@
 									<div class="divider-35"></div>
 								</div>
 								<h5>
-									We are the one of the most effective Web Design Companies
+									Un service personnalisé qui répond à vos besoins
 								</h5>
 								<p>
-									Getting online is easy. Succeeding online is a different story. You’ll need more than just a beautiful website to stand out these days.
-									<strong>Online marketing solutions.</strong> Conversion-based web design coupled with a lead generating marketing plan, your online success is inevitable.
+									Faites l'expérience d'un service sur mesure, conçu pour vous offrir des solutions web performantes et adaptées à vos besoins spécifiques.
 								</p>
 								<div class="divider-30"></div>
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
-								</div>
-								<div>
-									<div class="divider-40"></div>
-									<button type="button" class="btn btn-outline-maincolor">Get Started</button>
-									<div class="divider-40"></div>
-								</div>
+								</div>					
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
 								</div>
@@ -265,7 +171,7 @@
 									</h6>
 
 									<p>
-										We use strategic marketing tactics that have been proven to work.
+										 Profitez d'un suivi clair et personnalisé de vos performances en ligne.
 									</p>
 
 								</div>
@@ -279,11 +185,11 @@
 								</div>
 								<div class="item-content">
 									<h6>
-										<a href="service-single1.html">Development</a>
+										<a href="service-single1.html">Développement</a>
 									</h6>
 
 									<p>
-										Custom programming for most complex functions you can think.
+										Bénéficiez d'un développement web professionnel et sur mesure pour créer un site adapté à vos besoins et objectifs.
 									</p>
 
 								</div>
@@ -297,11 +203,11 @@
 								</div>
 								<div class="item-content">
 									<h6>
-										<a href="service-single1.html">Web Design</a>
+										<a href="service-single1.html">Désigne</a>
 									</h6>
 
 									<p>
-										Pork chop pork belly hamburger prosciutto, fatback andouille flank.
+										Captez l'attention de vos visiteurs grâce à un design unique et attrayant qui reflète parfaitement votre identité.
 									</p>
 								</div>
 							</div>
@@ -314,11 +220,11 @@
 								</div>
 								<div class="item-content">
 									<h6>
-										<a href="service-single1.html">SEO Optimization</a>
+										<a href="service-single1.html">Optimisation SEO</a>
 									</h6>
 
 									<p>
-										Optimizing our web designs to rank on the first page of google is our specialty.
+										Améliorer votre visibilité et attirer plus de visiteur.
 									</p>
 								</div>
 							</div>
@@ -335,7 +241,8 @@
 									</h6>
 
 									<p>
-										We build your online store using a flexible, modular platform that allows
+										Développer et multiplier vos ventes grâce à une boutique en ligne optimisée, conçue pour offrir une expérience d'achat irréprochable à vos clients.
+
 									</p>
 
 								</div>
@@ -353,7 +260,7 @@
 									</h6>
 
 									<p>
-										A solid brand strategy, logo and guidelines help you to get You recognized.
+										Créer et établissez une image en ligne reflètent vos valeurs et votre vision.
 									</p>
 
 								</div>
@@ -367,15 +274,15 @@
 				</div>
 			</section>
 
-
 			<section class="s-pt-100 s-pt-lg-130 ds process-part skew_right s-parallax top_white_line_big overflow-visible" id="steps">
 				<div class="container">
 					<div class="divider-65"></div>
+					
 					<div class="row align-items-center c-mb-20 c-mb-lg-60">
 						<div class="col-12 col-lg-4">
 							<div class="step-left-part text-right">
 								<h2 class="step-title">
-									<span class="color-main">01</span>Strategy</h2>
+									<span class="color-main">01</span>Collaboration Étroite</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4">
@@ -385,7 +292,7 @@
 						</div>
 						<div class="col-12 col-lg-4">
 							<div class="step-right-part">
-								<p class="step-text">We define your competition and target audience. Discover what is working in your online industry, then design your website accordingly.</p>
+								<p class="step-text">Travaillons main dans la main lors de chaque étape de votre projet. Vos idées et vos retours sont essentiels pour nous assurer que le résultat final répond à vos attentes.</p>
 							</div>
 						</div>
 					</div>
@@ -394,7 +301,7 @@
 						<div class="col-12 col-lg-4  order-lg-3">
 							<div class="step-left-part">
 								<h2 class="step-title color1">
-									<span class="color-main2">02</span>Design</h2>
+									<span class="color-main2">02</span>Livraison continue</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 order-lg-2">
@@ -404,7 +311,7 @@
 						</div>
 						<div class="col-12 col-lg-4 order-lg-1 text-right">
 							<div class="step-right-part ">
-								<p class="step-text">Color scheme, layout, sitemap, and style. We will bring your brand to life with a one of a kind masterpiece, built just for you.</p>
+								<p class="step-text">Nous livrons votre projet en plusieurs étapes, vous permettant de visualiser les progrès, de donner votre avis et d'apporter des modifications si nécessaire.</p>
 							</div>
 						</div>
 					</div>
@@ -413,7 +320,7 @@
 						<div class="col-12 col-lg-4">
 							<div class="step-left-part text-right part3">
 								<h2 class="step-title">
-									<span class="color-main3">03</span>Develop</h2>
+									<span class="color-main3">03</span>Flexibilité et Adaptabilité</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4">
@@ -423,7 +330,7 @@
 						</div>
 						<div class="col-12 col-lg-4">
 							<div class="step-right-part">
-								<p class="step-text">We turn your ideas into a reality. &our website is placed on a "development server" where you get to watch the whole process, live.</p>
+								<p class="step-text">Grâce à la méthode agile, nous sommes en mesure de nous adapter rapidement aux changements, garantissant ainsi que votre projet reste aligné avec vos objectifs même si ceux-ci évoluent.</p>
 							</div>
 						</div>
 					</div>
@@ -432,7 +339,7 @@
 						<div class="col-12 col-lg-4  order-lg-3">
 							<div class="step-left-part part4">
 								<h2 class="step-title color1">
-									<span class="color-main4">04</span>Support</h2>
+									<span class="color-main4">04</span>Perfectionnement Progressif</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 order-lg-2">
@@ -442,7 +349,7 @@
 						</div>
 						<div class="col-12 col-lg-4 order-lg-1 text-right">
 							<div class="step-right-part ">
-								<p class="step-text">This is where you go live, to the world. Design, marketing, and maintenance; we'll be at your side for the life of your site.</p>
+								<p class="step-text"> Au fil des itérations, nous affinons et améliorons votre projet pour assurer une qualité optimale et une correspondance parfaite avec vos besoins.</p>
 							</div>
 						</div>
 					</div>
@@ -453,105 +360,83 @@
 				</div>
 			</section>
 
-			<section class="ls ms book-item s-pb-30 s-pb-lg-25">
-				<div class="corner corner-light"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 offset-md-2">
-							<div class="text-block text-center">
-								<div class="btn-book-section overflow-visible">
-									<a href="#" class="btn btn-maincolor">Get Started</a>
-								</div>
+			<section class="ls s-pt-50 s-pb-130 gallery-title">
+							<div class="text-block text-center">	
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
 									<div class="divider-35"></div>
 								</div>
 								<h5>
-									B2B Marketing & Web Design
-									<br> Resources
+									Nos projets
 								</h5>
-								<p>
-									B2B client acquisition is not the same as B2C– a B2B website, brand messaging and content marketing play a much different role. We understand the B2B marketing and sales funnel and the tactics that generate and nurture ideal client leads.
-								</p>
-								<div class="divider-30"></div>
-								<div class="img-wrap text-center">
-									<img src="img/vertical_line.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="divider-40"></div>
-						<div class="row c-gutter-30 c-mb-30 c-mb-lg-0 text-center book">
-							<div class="col-12 col-lg-4">
-								<div class="stage book-1 ls">
-									<img src="images/book-1.png" alt="#">
-									<div class="info">
-										<header>
-											<h6>
-												<a href="#">Annual Report
-													<br>2017-2018</a>
-											</h6>
-										</header>
-										<p>
-											At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
-										</p>
-										<p class="small-text link-a">
-											<a href="#">Buy It Now!</a>
-										</p>
+									<div class="d-none d-lg-block divider-20"></div>
+									<div class="container">
+										<div class="row">
+											<div class="col-lg-12">
+												
+					
+												<div class="row isotope-wrapper masonry-layout c-gutter-10 c-mb-10" data-filters=".gallery-filters">
+					
+													<div class="col-xl-6 col-sm-6 web-design logo-design">
+					
+														<div class="vertical-item text-center ls ms">
+															<div class="item-media">
+																<img src="images/gallery/01.jpg" alt="">
+																<div class="media-links">
+																</div>
+															</div>
+															<div class="item-content">
+																<h6>
+																	<a href="/gallery-item3.html">Allaitement Québec</a>
+																</h6>
+																<div class="small-text link-a">
+																	<a href="https://chat.allaitementquebec.org/">chat.allaitementquebec.org</a>
+																</div>
+					
+															</div>
+														</div>
+					
+													</div>
+					
+													<div class="col-xl-6 col-sm-6 advertisement branding">
+														<div class="vertical-item text-center ls ms">
+															<div class="item-media">
+																<img src="images/gallery/02.jpg" alt="">
+																<div class="media-links">
+																</div>
+															</div>
+															<div class="item-content">
+																<h6>
+																	<a href="/gallery-item3.html">Festival canin de Dégelis</a>
+																</h6>
+																<div class="small-text link-a">
+																	<a href="https://www.festivalcanin.com/">festivalcanin.com</a>
+																</div>
+					
+															</div>
+														</div>
+													</div>
+											</div>
+												<!-- .isotope-wrapper-->			
+											</div>
+										</div>
 									</div>
-								</div>
-							</div>
-							<div class="col-12 col-lg-4">
-								<div class="stage book-2 ds">
-									<img src="images/book-2.png" alt="#">
-									<div class="info">
-										<header>
-											<h6>
-												<a href="#">Tools of Trading: Modern Marketing</a>
-											</h6>
-										</header>
-										<p>
-											Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam numy eirmod.
-										</p>
-										<p class="small-text link-a">
-											<a href="#">Buy It Now!</a>
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-lg-4">
-								<div class="stage book-3 ls">
-									<img src="images/book-3.png" alt="#">
-									<div class="info">
-										<header>
-											<h6>
-												<a href="#">Business Magazine: Design</a>
-											</h6>
-										</header>
-										<p>
-											Et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
-										</p>
-										<p class="small-text link-a">
-											<a href="#">Buy It Now!</a>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+									<div class="d-none d-lg-block divider-75"></div>
+
 						<div class="divider-30"></div>
 						<div class="text-center img-wrap col-md-12">
 							<div>
 								<img src="img/vertical_line.png" alt="">
 							</div>
 							<div class="divider-40"></div>
-							<a href="#" class="btn btn-outline-maincolor">Get Started</a>
+							<h4>Témoignages</h4>
 							<div class="divider-40"></div>
 							<div>
 								<img src="img/vertical_line.png" alt="">
 							</div>
-						</div>
-					</div>
+
+
 					<div class="divider-10"></div>
-				</div>
 			</section>
 
 			<section class="ls ms blog-post-carousel">
@@ -641,65 +526,8 @@
 				<div class="corner ls ms"></div>
 				<div class="container">
 					<div class="row c-mt-30 c-mt-md-0">
-						<div class="divider-20"></div>
-						<div class="text-center img-wrap line col-md-12">
-							<img src="img/vertical_line2.png" alt="">
-						</div>
 						<div class="divider-40 d-none d-md-block"></div>
-						<div class="col-md-12">
-							<div class="owl-carousel" data-autoplay="false" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-nav="false" data-dots="true" id="quote">
-								<div class="quote-item">
-									<div class="quote-image">
-										<img src="images/team/testimonials_02.jpg" alt="">
-									</div>
-									<p class="small-text author-job">
-										Eye Insurance
-									</p>
-									<h5>
-										<a href="#">George M. Baty</a>
-									</h5>
-									<p>
-										<em class="big">
-											I needed more leads for my services. Pay-per-click, banners of maybe even broschures. They made an analysis of my existing site. It occurred that my webdite is banned with Google, and I never knew about that!
-										</em>
-									</p>
-								</div>
-								<div class="quote-item">
-									<div class="quote-image">
-										<img src="images/team/testimonials_01.jpg" alt="">
-									</div>
-									<p class="small-text author-job">
-										Moving co
-									</p>
-									<h5>
-										<a href="#">Jeffrey P. McAllister</a>
-									</h5>
-									<p>
-										<em class="big">
-											I highly recommend this company for all and any of your design needs. I am very happy with the new redesigned and restructured website they built for my moving company!
-										</em>
-									</p>
-								</div>
-								<div class="quote-item">
-									<div class="quote-image">
-										<img src="images/team/testimonials_03.jpg" alt="">
-									</div>
-									<p class="small-text author-job">
-										Paradox Inc
-									</p>
-									<h5>
-										<a href="#">Josephine B. Anderson</a>
-									</h5>
-									<p>
-										<em class="big">
-											This guys are awesome! It is hard to find a web design company who can actually listen and understand what you need. I’m 100% satisfied with this guys. My website is exactly what I needed and even more...
-										</em>
-									</p>
-
-								</div>
-							</div>
-							<!-- .testimonials-slider -->
-						</div>
+						
 						<div class="divider-55 d-none d-md-block"></div>
 						<div class="text-center img-wrap col-md-12">
 							<img src="img/vertical_line2.png" alt="">
@@ -748,64 +576,62 @@
 				</div>
 			</section>
 
-			<section class="s-pt-50 s-pb-100 s-pt-lg-30 s-pb-lg-75 ls ms teaser-contact-icon main-icon s-parallax" id="contact">
-				<div class="corner corner-inverse"></div>
-				<div class="text-center img-wrap col-md-12">
-					<img src="img/dark_line_short.png" alt="">
-				</div>
+			<section class="ls s-pt-30 s-pb-100 s-pb-md-130 s-py-lg-100 contact2">
+				<div class="divider-15 d-none d-xl-block"></div>
 				<div class="container">
-					<div class="divider-10 d-none d-xl-block"></div>
-					<div class="row c-mb-50 c-mb-lg-0">
-						<div class="col-lg-4 text-center">
-							<div class="border-icon">
-								<div class="teaser-icon">
-									<img src="images/icon1.png" alt="">
+
+					<div class="divider-60 d-none d-xl-block"></div>
+					<div class="row">
+						<div class="col-lg-12 ">
+							<form class="contact-form" method="post" action="/">
+
+								<div class="row c-gutter-20">
+
+									<div class="col-12 col-md-6">
+										<div class="form-group has-placeholder">
+											<label for="name">Nom et prénom
+												<span class="required">*</span>
+											</label>
+											<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control text-left" placeholder="Nom et prénom">
+										</div>
+										<div class="form-group has-placeholder ">
+											<label for="email">Adresse courriel
+												<span class="required">*</span>
+											</label>
+											<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control text-left" placeholder="Adresse courriel">
+										</div>
+										<div class="form-group has-placeholder">
+											<label for="subject">Sujet
+												<span class="required">*</span>
+											</label>
+											<input type="text" aria-required="true" size="30" value="" name="subject" id="subject" class="form-control text-left" placeholder="Sujet">
+										</div>
+									</div>
+									<div class="col-12 col-md-6">
+
+										<div class="form-group has-placeholder">
+											<label for="message">Message</label>
+											<textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control text-left" placeholder="Votre message"></textarea>
+										</div>
+									</div>
 								</div>
-							</div>
-							<h6>
-								Contactez-nous
-							</h6>
-							<p>
-								<strong>New Accounts:</strong> 1-800-123-4567
-								<br>
-								<strong>Support:</strong> 1-800-123-4569
-							</p>
-						</div>
-						<div class="col-lg-4 text-center">
-							<div class="border-icon">
-								<div class="teaser-icon">
-									<img src="images/icon3.png" alt="">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="form-group text-center">
+											<button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor">Envoyer votre message</button>
+										</div>
+									</div>
+
 								</div>
-							</div>
-							<h6>
-								Écrivez-nous
-							</h6>
-							<p>
-								example@example.com
-								<br> example@example.com
-							</p>
+							</form>
+
 						</div>
-						<div class="col-lg-4 text-center">
-							<div class="border-icon">
-								<div class="teaser-icon">
-									<img src="images/icon2.png" alt="">
-								</div>
-							</div>
-							<h6>
-								Visit Us
-							</h6>
-							<p>
-								2231 Sycamore Lake Road
-								<br> Green Bay, WI 54304
-							</p>
-						</div>
-					</div>
-					<div class="divider-30 d-none d-lg-block"></div>
-					<div class="text-center img-wrap col-md-12 layout-2">
-						<img src="img/dark_line_short.png" alt="">
+						<!--.col-* -->
+
+						<div class="divider-80 d-none d-xl-block"></div>
+
 					</div>
 				</div>
-				<div class="divider-10"></div>
 			</section>
 
 
@@ -816,13 +642,8 @@
 						<div class="row">
 							<div class="divider-20 d-none d-xl-block"></div>
 							<div class="col-md-12 mt-4 text-center animate" data-animation="fadeInUp">
-								<img class="margin-negative" src="images//footer_logo.png" alt="">
-								<div class="widget widget_social_buttons">
-									<a href="http://www.facebook.com/#" class="fa fa-facebook color-icon" title="facebook"></a>
-									<a href="http://www.twitter.com/#" class="fa fa-twitter color-icon" title="twitter"></a>
-									<a href="http://www.plus.google.com/#" class="fa fa-google color-icon" title="google"></a>
-									<a href="http://www.youtube.com/#" class="fa fa-youtube-play color-icon" title="youtube-play"></a>
-									<a href="http://www.linkedin.com/#" class="fa fa-linkedin color-icon" title="linkedin"></a>
+								<h1>Hestenn</h1>
+								<p>contact@hestenn.com</p>
 								</div>
 							</div>
 						</div>
@@ -837,7 +658,7 @@
 						<div class="divider-20 d-none d-lg-block"></div>
 						<div class="col-md-12 text-center">
 							<p>&copy; Copyright
-								<span class="copyright_year">2018</span> All Rights Reserved</p>
+								<span class="copyright_year">2023</span> Tous droits réservés</p>
 						</div>
 						<div class="divider-20 d-none d-lg-block"></div>
 					</div>
@@ -858,3 +679,4 @@
 </body>
 
 </html>
+
