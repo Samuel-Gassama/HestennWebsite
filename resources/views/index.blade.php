@@ -35,6 +35,12 @@
 </head>
 
 <body>
+
+	<style>
+		.blur-image {
+		  filter: blur(5px) grayscale(50%); /* Adjust the blur amount as desired */
+		}
+	  </style>
 	<!--[if lt IE 9]>
 		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
 	<![endif]-->
@@ -73,9 +79,7 @@
 				<div class="flexslider" data-nav="true" data-dots="false">
 					<ul class="slides">
 						<li class="ds text-center slide1">
-							<span class="flexslider-overlay"></span>
-							<span class="embed-responsive embed-responsive-16by9">
-								<iframe src="https://www.youtube.com/embed/UBufeh1yv2c?feature=oembed&;showinfo=0&;autoplay=1&;controls=0&;mute=1&;loop=1&;playlist=UBufeh1yv2c" allowfullscreen=""></iframe>
+								<img class="blur-image" src="img/landing.jpg"/>
 							</span>
 							<div class="container">
 								<div class="row">
@@ -639,6 +643,7 @@
 							<div class="divider-20 d-none d-xl-block"></div>
 							<div class="col-md-12 mt-4 text-center animate" data-animation="fadeInUp">
 								<h1>Hestenn</h1>
+								<p>contact@hestenn.com</p>
 								</div>
 							</div>
 						</div>
