@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-	<title>Hestenn Development</title>
+	<title>Hestenn web developpement</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 {{--    <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">--}}
@@ -34,27 +35,18 @@
 </head>
 
 <body>
+
+	<style>
+		.blur-image {
+		  filter: blur(5px) grayscale(50%); /* Adjust the blur amount as desired */
+		}
+	  </style>
 	<!--[if lt IE 9]>
 		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
 	<![endif]-->
 
 	<div class="preloader">
 		<div class="preloader_image"></div>
-	</div>
-
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">&times;</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form" action="/">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="btn">Search</button>
-			</form>
-		</div>
 	</div>
 
 	<!-- Unyson messages modal -->
@@ -76,14 +68,9 @@
 		<div id="box_wrapper">
 
                 {{--Section HEADER --}}
-
-
 			@include('partials.header') {{-- Include Header --}}
 
                 {{--Section HEADER --}}
-
-
-
 			<span class="toggle_menu_side header-slide">
 				<span></span>
 			</span>
@@ -92,9 +79,7 @@
 				<div class="flexslider" data-nav="true" data-dots="false">
 					<ul class="slides">
 						<li class="ds text-center slide1">
-							<span class="flexslider-overlay"></span>
-							<span class="embed-responsive embed-responsive-16by9">
-								<iframe src="https://www.youtube.com/embed/UBufeh1yv2c?feature=oembed&;showinfo=0&;autoplay=1&;controls=0&;mute=1&;loop=1&;playlist=UBufeh1yv2c" allowfullscreen=""></iframe>
+								<img class="blur-image" src="img/landing.jpg"/>
 							</span>
 							<div class="container">
 								<div class="row">
@@ -102,13 +87,13 @@
 										<div class="intro_layers_wrapper">
 											<div class="intro_layers">
 												<div class="intro_layer" data-animation="fadeIn">
-													<p class="text-uppercase intro_after_featured_word">Bienvenue chez</p>
+													<p class="text-uppercase intro_after_featured_word">Hestenn</p>
 												</div>
 
 												<div class="intro_layer" data-animation="slideRight">
-													<h2 class="text-uppercase intro_featured_word">
-														Hestenn
-													</h2>
+													<h4 class="intro_featured_word">
+														Donnez vie à votre projet web
+													</h4>
 												</div>
 												<div class="intro_layer" data-animation="fadeIn">
 													<h3 class="intro_before_featured_word">
@@ -130,80 +115,7 @@
 								<!-- eof .row -->
 							</div>
 							<!-- eof .container -->
-						</li>
-						<li class="ds text-center slide2">
-							<span class="flexslider-overlay"></span>
-							<img src="images/slide_02.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-12 itro_slider">
-										<div class="intro_layers_wrapper">
-											<div class="intro_layers">
-												<div class="intro_layer" data-animation="fadeIn">
-													<h3 class="text-lowercase intro_before_featured_word">
-														Online
-													</h3>
-												</div>
-												<div class="intro_layer" data-animation="fadeIn">
-													<h2 class="text-uppercase intro_featured_word">
-														Marketing
-													</h2>
-												</div>
-												<div class="intro_layer" data-animation="pullDown">
-													<p class="text-uppercase intro_after_featured_word">Solutions</p>
-												</div>
-												<div class="intro_layer page-bottom" data-animation="expandUp">
-													<a class="btn btn-maincolor" href="about.html">Get Started</a>
-												</div>
-											</div>
-											<!-- eof .intro_layers -->
-										</div>
-										<!-- eof .intro_layers_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-						<li class="ds text-center slide3">
-							<img src="images/slide_03.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-12 itro_slider">
-										<div class="intro_layers_wrapper">
-											<div class="intro_layers">
-												<div class="intro_layer" data-animation="fadeInRight">
-													<h2 class="text-uppercase intro_featured_word light">
-														Modern
-													</h2>
-												</div>
-												<div class="intro_layer" data-animation="fadeIn">
-													<h2 class="text-uppercase intro_featured_word bold">
-														Marketing & design
-													</h2>
-												</div>
-												<div class="intro_layer" data-animation="fadeIn">
-													<h2 class="text-uppercase intro_featured_word">
-														That works
-													</h2>
-												</div>
-
-												<div class="intro_layer page-bottom" data-animation="expandUp">
-													<a class="btn btn-maincolor" href="about.html">Get Started</a>
-													<a class="btn btn-outline-maincolor" href="#">our folio</a>
-												</div>
-											</div>
-											<!-- eof .intro_layers -->
-										</div>
-										<!-- eof .intro_layers_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
+						</li>		
 
 					</ul>
 				</div>
@@ -664,64 +576,62 @@
 				</div>
 			</section>
 
-			<section class="s-pt-50 s-pb-100 s-pt-lg-30 s-pb-lg-75 ls ms teaser-contact-icon main-icon s-parallax" id="contact">
-				<div class="corner corner-inverse"></div>
-				<div class="text-center img-wrap col-md-12">
-					<img src="img/dark_line_short.png" alt="">
-				</div>
+			<section class="ls s-pt-30 s-pb-100 s-pb-md-130 s-py-lg-100 contact2">
+				<div class="divider-15 d-none d-xl-block"></div>
 				<div class="container">
-					<div class="divider-10 d-none d-xl-block"></div>
-					<div class="row c-mb-50 c-mb-lg-0">
-						<div class="col-lg-4 text-center">
-							<div class="border-icon">
-								<div class="teaser-icon">
-									<img src="images/icon1.png" alt="">
+
+					<div class="divider-60 d-none d-xl-block"></div>
+					<div class="row">
+						<div class="col-lg-12 ">
+							<form class="contact-form" method="post" action="/">
+
+								<div class="row c-gutter-20">
+
+									<div class="col-12 col-md-6">
+										<div class="form-group has-placeholder">
+											<label for="name">Nom et prénom
+												<span class="required">*</span>
+											</label>
+											<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control text-left" placeholder="Nom et prénom">
+										</div>
+										<div class="form-group has-placeholder ">
+											<label for="email">Adresse courriel
+												<span class="required">*</span>
+											</label>
+											<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control text-left" placeholder="Adresse courriel">
+										</div>
+										<div class="form-group has-placeholder">
+											<label for="subject">Sujet
+												<span class="required">*</span>
+											</label>
+											<input type="text" aria-required="true" size="30" value="" name="subject" id="subject" class="form-control text-left" placeholder="Sujet">
+										</div>
+									</div>
+									<div class="col-12 col-md-6">
+
+										<div class="form-group has-placeholder">
+											<label for="message">Message</label>
+											<textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control text-left" placeholder="Votre message"></textarea>
+										</div>
+									</div>
 								</div>
-							</div>
-							<h6>
-								Contactez-nous
-							</h6>
-							<p>
-								<strong>New Accounts:</strong> 1-800-123-4567
-								<br>
-								<strong>Support:</strong> 1-800-123-4569
-							</p>
-						</div>
-						<div class="col-lg-4 text-center">
-							<div class="border-icon">
-								<div class="teaser-icon">
-									<img src="images/icon3.png" alt="">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="form-group text-center">
+											<button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor">Envoyer votre message</button>
+										</div>
+									</div>
+
 								</div>
-							</div>
-							<h6>
-								Écrivez-nous
-							</h6>
-							<p>
-								example@example.com
-								<br> example@example.com
-							</p>
+							</form>
+
 						</div>
-						<div class="col-lg-4 text-center">
-							<div class="border-icon">
-								<div class="teaser-icon">
-									<img src="images/icon2.png" alt="">
-								</div>
-							</div>
-							<h6>
-								Visit Us
-							</h6>
-							<p>
-								2231 Sycamore Lake Road
-								<br> Green Bay, WI 54304
-							</p>
-						</div>
-					</div>
-					<div class="divider-30 d-none d-lg-block"></div>
-					<div class="text-center img-wrap col-md-12 layout-2">
-						<img src="img/dark_line_short.png" alt="">
+						<!--.col-* -->
+
+						<div class="divider-80 d-none d-xl-block"></div>
+
 					</div>
 				</div>
-				<div class="divider-10"></div>
 			</section>
 
 
@@ -732,13 +642,8 @@
 						<div class="row">
 							<div class="divider-20 d-none d-xl-block"></div>
 							<div class="col-md-12 mt-4 text-center animate" data-animation="fadeInUp">
-								<img class="margin-negative" src="images//footer_logo.png" alt="">
-								<div class="widget widget_social_buttons">
-									<a href="http://www.facebook.com/#" class="fa fa-facebook color-icon" title="facebook"></a>
-									<a href="http://www.twitter.com/#" class="fa fa-twitter color-icon" title="twitter"></a>
-									<a href="http://www.plus.google.com/#" class="fa fa-google color-icon" title="google"></a>
-									<a href="http://www.youtube.com/#" class="fa fa-youtube-play color-icon" title="youtube-play"></a>
-									<a href="http://www.linkedin.com/#" class="fa fa-linkedin color-icon" title="linkedin"></a>
+								<h1>Hestenn</h1>
+								<p>contact@hestenn.com</p>
 								</div>
 							</div>
 						</div>
@@ -753,7 +658,7 @@
 						<div class="divider-20 d-none d-lg-block"></div>
 						<div class="col-md-12 text-center">
 							<p>&copy; Copyright
-								<span class="copyright_year">2018</span> All Rights Reserved</p>
+								<span class="copyright_year">2023</span> Tous droits réservés</p>
 						</div>
 						<div class="divider-20 d-none d-lg-block"></div>
 					</div>
@@ -774,3 +679,4 @@
 </body>
 
 </html>
+

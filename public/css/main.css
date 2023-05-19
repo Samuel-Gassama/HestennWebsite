@@ -14890,7 +14890,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 138px;
+		font-size: 85px;
 	}
 
 	.page_slider .intro_after_featured_word {
@@ -14907,14 +14907,14 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 200px;
+		font-size: 85px;
 		font-weight: 600;
 		margin-bottom: 20px;
 		white-space: nowrap;
 	}
 
 	.container .page_slider .intro_featured_word {
-		font-size: 138px;
+		font-size: 85px;
 	}
 }
 
@@ -18610,13 +18610,14 @@ a.btn {
 	font-size: 12px;
 	font-weight: 500;
 	letter-spacing: 0.2em;
+	background-color: #3190EE;
 	text-transform: uppercase;
 }
 
-.page_copyright.cover-background,
+/* .page_copyright.cover-background,
 .page_copyright.s-parallax {
-	background-image: url("../img/parallax/copyright_bg.jpg");
-}
+	/* background-image: url("../img/parallax/copyright_bg.jpg");
+} */
 
 .item-hover-content {
 	overflow: hidden;
