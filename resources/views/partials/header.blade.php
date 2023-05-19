@@ -18,13 +18,13 @@
                             <a href="index.html">Accueil</a>                         
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <a href="#Service">Services</a>
                         </li>
                         <!-- blog -->
 
                         <!-- gallery -->
                         <li>
-                            <a href="gallery-regular.html">Nos projets</a>
+                            <a href="#Projets">Nos projets</a>
                            
                         </li>
                         <!-- eof pages -->
@@ -35,7 +35,7 @@
                         <!-- eof blog -->
 
                         <li>
-                            <a href="contact.html">Contacts</a>           
+                            <a href="#Contacte">Contacte</a>           
                         </li>
 
                     </ul>
@@ -58,3 +58,25 @@
 					</span>
 </header>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Select all navigation links
+      const navLinks = document.querySelectorAll("nav a");
+
+// Attach click event listeners to the navigation links
+      navLinks.forEach(function(link) {
+        link.addEventListener("click", function(e) {
+      e.preventDefault();
+
+  // Get the target section ID from the href attribute
+      const targetId = this.getAttribute("href");
+
+  // Scroll smoothly to the target section
+      document.querySelector(targetId).scrollIntoView({
+        behavior: "smooth"
+          });
+});
+});
+});
+</script>

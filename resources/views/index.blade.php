@@ -128,7 +128,7 @@
 			<section class="s-pt-30 s-pt-lg-50 s-pt-xl-25 ls about-home" id="about">
 				<div class="divider-5 d-none d-xl-block"></div>
 				<div class="container">
-					<div class="row">
+					<div id="Service" class="row">
 						<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 							<div class="main-content text-center">
 								<div class="img-wrap text-center">
@@ -360,7 +360,7 @@
 				</div>
 			</section>
 
-			<section class="ls s-pt-50 s-pb-130 gallery-title">
+			<section id="Projets" class="ls s-pt-50 s-pb-130 gallery-title">
 							<div class="text-block text-center">	
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
@@ -543,7 +543,7 @@
 				<div class="corner corner-light"></div>
 			</section>
 
-			<section class="s-pt-130 s-pt-md-50 ls text-section">
+			<section id="Contacte" class="s-pt-130 s-pt-md-50 ls text-section">
 				<div class="divider-30"></div>
 				<div class="container">
 					<div class="row">
