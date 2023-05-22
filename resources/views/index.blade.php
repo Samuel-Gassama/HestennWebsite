@@ -114,6 +114,82 @@
 					<a href="#Service" class="mouse-button animated floating"></a>
 				</div>
 			</section>
+
+			<section class="s-pt-30 s-pt-lg-50 ls about">
+				<div id="Apropos" class="divider-60 d-none d-xl-block"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 offset-md-2">
+							<div class="main-content text-center">
+								<h5>
+									"Nous aimons ce que nous faisons et nous aimons aider les autres à réussir dans ce qu'ils aiment faire"
+								</h5>
+								<i class="rt-icon2-user"></i>
+								<p>
+									Maxence MAZEAU,
+									<span class="link-a">
+										<a href="#">CEO</a>
+									</span>
+								</p>
+								<p>
+									Samuel GASSAMA,
+									<span class="link-a">
+										<a href="#">CO-CEO</a>
+									</span>
+								</p>
+
+								<div class="divider-10 d-none d-xl-block"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-pt-0  s-pb-30 s-pt-lg-30 s-pb-lg-75 ls about-icon teaser-contact-icon">
+				<div class="divider-10 d-none d-xl-block"></div>
+				<div class="container">
+					<div class="row c-mt-50 c-mt-lg-0">
+						<div class="col-lg-4 text-center call-icon">						
+							<h6>
+								Qui sommes-nous
+							</h6>
+							<div class="icon-content">
+								<p>
+									Chez Hestenn, nous sommes une équipe passionnée de développement web composée de deux développeurs dévoués.
+									Notre objectif est de créer des sites web uniques qui captent l'essence de nos clients et reflètent leur identité de manière authentique.
+									Nous croyons fermement que chaque entreprise mérite une présence en ligne qui lui ressemble, et c'est pourquoi nous mettons tout en œuvre pour offrir des solutions personnalisées. 
+									Avec notre expertise technique et notre sensibilité artistique, nous sommes là pour donner vie à votre vision et vous aider à établir une connexion significative avec votre public.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 text-center write-icon">
+							<div class="divider-30 d-none d-xl-block"></div>							
+							<div class="icon-content">
+								<h6>
+									Que faisons-nous
+								</h6>
+								<p>
+									Notre principal métier est de créer des sites web sur mesure qui répondent aux besoins spécifiques de nos clients. 
+									Nous nous engageons à concevoir des expériences en ligne exceptionnelles, en accordant une attention particulière aux détails et à l'ergonomie. 
+									Notre approche centrée sur l'utilisateur nous permet de comprendre vos objectifs, votre marché cible et votre identité de marque afin de concevoir des sites web intuitifs et esthétiquement plaisants.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 text-center visit-icon">
+							<div class="icon-content">
+								<h6>
+									Pourquoi nous le faisons
+								</h6>
+								<p>
+									Nous croyons au pouvoir de la présence en ligne pour renforcer les liens entre les entreprises et leurs clients, stimuler la croissance et favoriser l'engagement. 
+									En tant que développeurs web passionnés, nous combinons notre expertise technique et notre créativité pour créer des expériences digitales uniques. Notre engagement se traduit par une étroite collaboration avec nos clients, en écoutant attentivement leurs besoins et en offrant des solutions sur mesure qui renforcent leur image de marque et optimisent leur performance en ligne. 
+									La réussite de nos clients est notre plus grande satisfaction.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<div class="divider-10 d-block d-sm-none"></div>
 			<section class="s-pt-30 s-pt-lg-50 s-pt-xl-25 ls about-home" id="about">
 				<div class="divider-5 d-none d-xl-block"></div>
@@ -329,7 +405,7 @@
 						<div class="col-12 col-lg-4  order-lg-3">
 							<div class="step-left-part part4">
 								<h2 class="step-title color1">
-									<span class="color-main4">04</span>Perfectionnement Progressif</h2>
+									<span class="color-main4">04</span>Progrès Continu</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 order-lg-2">
@@ -415,101 +491,9 @@
 
 						<div class="divider-30"></div>
 						<div class="text-center img-wrap col-md-12">
-							<div>
-								<img src="img/vertical_line.png" alt="">
-							</div>
-							<div class="divider-40"></div>
-							<h4>Témoignages</h4>
-							<div class="divider-40"></div>
-							<div>
-								<img src="img/vertical_line.png" alt="">
-							</div>
 
 
 					<div class="divider-10"></div>
-			</section>
-
-			<section class="ls ms blog-post-carousel">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12">
-							<div class="owl-carousel" data-responsive-lg="4" data-responsive-md="3" data-responsive-sm="2" data-responsive-xs="1" data-nav="false" data-dots="false" data-loop="true" data-margin="4">
-								<article class="box text-center">
-									<div class="item-content">
-										<p class="small-text">
-											<a href="#">December 29, 2017</a>
-										</p>
-										<h6>
-											<a href="#">Traffic control test by New York Cabs program</a>
-										</h6>
-										<div class="post-author">
-											<img src="images/small_author.png" alt="">
-											<p>
-												<a href="#">by Admin</a>
-											</p>
-										</div>
-									</div>
-									<!-- .item-content -->
-								</article>
-								<!-- #post-## -->
-								<article class="box text-center">
-									<div class="item-content ">
-										<p class="small-text">
-											<a href="#">December 26, 2017</a>
-										</p>
-										<h6>
-											<a href="#">Live support, key of an endless satisfaction</a>
-										</h6>
-										<div class="post-author">
-											<img src="images/small_author.png" alt="">
-											<p>
-												<a href="#">by Admin</a>
-											</p>
-										</div>
-									</div>
-									<!-- .item-content -->
-								</article>
-								<!-- #post-## -->
-								<article class="box text-center">
-									<div class="item-content ">
-										<p class="small-text">
-											<a href="#">December 21, 2017</a>
-										</p>
-										<h6>
-											<a href="#">Strong servers, customer friendly services</a>
-										</h6>
-										<div class="post-author">
-											<img src="images/small_author.png" alt="">
-											<p>
-												<a href="#">by Admin</a>
-											</p>
-										</div>
-									</div>
-									<!-- .item-content -->
-								</article>
-								<!-- #post-## -->
-								<article class="box text-center">
-									<div class="item-content ">
-										<p class="small-text">
-											<a href="#">December 15, 2017</a>
-										</p>
-										<h6>
-											<a href="#">Weekly meeting in companies Think Room</a>
-										</h6>
-										<div class="post-author">
-											<img src="images/small_author.png" alt="">
-											<p>
-												<a href="#">by Admin</a>
-											</p>
-										</div>
-									</div>
-									<!-- .item-content -->
-								</article>
-								<!-- #post-## -->
-							</div>
-						</div>
-					</div>
-				</div>
 			</section>
 
 			<section class="s-pt-130 s-pb-15 s-pb-md-50 s-pt-xl-100 s-pb-lg-30 overflow-visible s-parallax testimonials-sliders main-testimonials ds" id="testimonials">
@@ -633,7 +617,6 @@
 							<div class="divider-20 d-none d-xl-block"></div>
 							<div class="col-md-12 mt-4 text-center animate" data-animation="fadeInUp">
 								<h1>Hestenn</h1>
-								<p>contact@hestenn.com</p>
 								</div>
 							</div>
 						</div>
