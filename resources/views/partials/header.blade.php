@@ -18,6 +18,10 @@
                             <a href="#Accueil">Accueil</a>                         
                         </li>
                         <li>
+                            <a href="#Apropos">À propos</a>
+                        </li>
+
+                        <li>
                             <a href="#Service">Services</a>
                         </li>
                         <!-- blog -->
@@ -29,9 +33,6 @@
                         </li>
                         <!-- eof pages -->
 
-                        <li>
-                            <a href="about.html">Notre Équipe</a>
-                        </li>
                         <!-- eof blog -->
 
                         <li>
