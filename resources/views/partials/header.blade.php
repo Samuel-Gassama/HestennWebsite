@@ -32,11 +32,13 @@
                            
                         </li>
                         <!-- eof pages -->
-
+                        <li>
+                            <a href="#Temoignage">Témoignages</a>
+                        </li>        
                         <!-- eof blog -->
 
                         <li>
-                            <a href="#Contacte">Contacte</a>           
+                            <a href="#Contacte">Contact</a>           
                         </li>
 
                     </ul>

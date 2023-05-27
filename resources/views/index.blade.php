@@ -496,6 +496,31 @@
 					<div class="divider-10"></div>
 			</section>
 
+			<section class="ls s-pt-20 s-pb-130 s-pb-lg-100 testimonials-page">
+				<div class="container">
+					<div id="Temoignage" class="text-block text-center">	
+						<h5>
+							Témoignages
+						</h5>
+					</div>		
+					<div class="divider-75 d-none d-xl-block"></div>
+					<div class="row c-mb-lg-30 c-gutter-60">
+						<div class="col-md-6">
+							<div class="text-center">
+								<h6>
+									Allaitement Québec
+								</h6>
+								<p>
+								Le projet a été réalisé très professionnellement et ils ont été présents tout au long du processus. Ils avaient à cœur de nous tenir informés des avancements. Ils étaient très à l'écoute des besoins exprimés et prenaient le temps de bien expliquer les étapes en termes clairs pour une personne ne travaillant pas dans le domaine de l'informatique.
+								</p>
+							</div>
+						</div>					
+					</div>
+					<div class="divider-70 d-none d-xl-block"></div>
+				</div>
+			</section>
+			
+
 			<section class="s-pt-130 s-pb-15 s-pb-md-50 s-pt-xl-100 s-pb-lg-30 overflow-visible s-parallax testimonials-sliders main-testimonials ds" id="testimonials">
 				<div class="corner ls ms"></div>
 				<div class="container">
