@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-	<title>Hestenn web developpement</title>
+	<title>Hestenn</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,13 +52,6 @@
 	<!-- Unyson messages modal -->
 	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
 		<div class="fw-messages-wrap ls p-normal">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
-
 		</div>
 	</div>
 	<!-- eof .modal -->
@@ -71,9 +64,9 @@
 			@include('partials.header') {{-- Include Header --}}
 
                 {{--Section HEADER --}}
-			<span class="toggle_menu_side header-slide">
+			{{-- <span class="toggle_menu_side header-slide">
 				<span></span>
-			</span>
+			</span> --}}
 
 			<section class="page_slider main_slider">
 				<div class="flexslider" data-nav="true" data-dots="false">
@@ -81,7 +74,7 @@
 						<li class="ds text-center slide1">
 								<img class="blur-image" src="img/landing.jpg"/>
 							</span>
-							<div class="container">
+							<div id="Accueil" class="container">
 								<div class="row">
 									<div class="col-12 itro_slider">
 										<div class="intro_layers_wrapper">
@@ -101,10 +94,7 @@
 {{--														<span class="color-main3">Marketing</span> &--}}
 {{--														<span class="color-main4">SEO</span>--}}
 													</h3>
-												</div>
-												<div class="intro_layer page-bottom" data-animation="expandUp">
-													<a class="btn btn-maincolor" href="#about">Notre expertise</a>
-												</div>
+												</div>				
 											</div>
 											<!-- eof .intro_layers -->
 										</div>
@@ -121,14 +111,90 @@
 				</div>
 				<!-- eof flexslider -->
 				<div class="flexslider-bottom d-none d-xl-block">
-					<a href="#about" class="mouse-button animated floating"></a>
+					<a href="#Service" class="mouse-button animated floating"></a>
+				</div>
+			</section>
+
+			<section class="s-pt-30 s-pt-lg-50 ls about">
+				<div id="Apropos" class="divider-60 d-none d-xl-block"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 offset-md-2">
+							<div class="main-content text-center">
+								<h5>
+									"Nous aimons ce que nous faisons et nous aimons aider les autres à réussir dans ce qu'ils aiment faire"
+								</h5>
+								<i class="rt-icon2-user"></i>
+								<p>
+									Maxence MAZEAU,
+									<span class="link-a">
+										<a href="#">CEO</a>
+									</span>
+								</p>
+								<p>
+									Samuel GASSAMA,
+									<span class="link-a">
+										<a href="#">CO-CEO</a>
+									</span>
+								</p>
+
+								<div class="divider-10 d-none d-xl-block"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="s-pt-0  s-pb-30 s-pt-lg-30 s-pb-lg-75 ls about-icon teaser-contact-icon">
+				<div class="divider-10 d-none d-xl-block"></div>
+				<div class="container">
+					<div class="row c-mt-50 c-mt-lg-0">
+						<div class="col-lg-4 text-center call-icon">						
+							<h6>
+								Qui sommes-nous
+							</h6>
+							<div class="icon-content">
+								<p>
+									Chez Hestenn, nous sommes une équipe passionnée de développement web composée de deux développeurs dévoués.
+									Notre objectif est de créer des sites web uniques qui captent l'essence de nos clients et reflètent leur identité de manière authentique.
+									Nous croyons fermement que chaque entreprise mérite une présence en ligne qui lui ressemble, et c'est pourquoi nous mettons tout en œuvre pour offrir des solutions personnalisées. 
+									Avec notre expertise technique et notre sensibilité artistique, nous sommes là pour donner vie à votre vision et vous aider à établir une connexion significative avec votre public.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 text-center write-icon">
+							<div class="divider-30 d-none d-xl-block"></div>							
+							<div class="icon-content">
+								<h6>
+									Que faisons-nous
+								</h6>
+								<p>
+									Notre principal métier est de créer des sites web sur mesure qui répondent aux besoins spécifiques de nos clients. 
+									Nous nous engageons à concevoir des expériences en ligne exceptionnelles, en accordant une attention particulière aux détails et à l'ergonomie. 
+									Notre approche centrée sur l'utilisateur nous permet de comprendre vos objectifs, votre marché cible et votre identité de marque afin de concevoir des sites web intuitifs et esthétiquement plaisants.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 text-center visit-icon">
+							<div class="icon-content">
+								<h6>
+									Pourquoi nous le faisons
+								</h6>
+								<p>
+									Nous croyons au pouvoir de la présence en ligne pour renforcer les liens entre les entreprises et leurs clients, stimuler la croissance et favoriser l'engagement. 
+									En tant que développeurs web passionnés, nous combinons notre expertise technique et notre créativité pour créer des expériences digitales uniques. Notre engagement se traduit par une étroite collaboration avec nos clients, en écoutant attentivement leurs besoins et en offrant des solutions sur mesure qui renforcent leur image de marque et optimisent leur performance en ligne. 
+									La réussite de nos clients est notre plus grande satisfaction.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 			<div class="divider-10 d-block d-sm-none"></div>
 			<section class="s-pt-30 s-pt-lg-50 s-pt-xl-25 ls about-home" id="about">
 				<div class="divider-5 d-none d-xl-block"></div>
 				<div class="container">
-					<div class="row">
+					<div id="Service" class="row">
 						<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 							<div class="main-content text-center">
 								<div class="img-wrap text-center">
@@ -156,7 +222,7 @@
 				<div class="divider-10 d-block d-sm-none"></div>
 			</section>
 
-			<section class="s-pt-30 s-pb-3 service-item2 ls animate" id="services" data-animation="fadeInUp">
+			<section class="s-pt-30 s-pb-3 service-item2 ls animate" data-animation="fadeInUp">
 				<div class="container">
 					<div class="row c-mb-50 c-mb-md-60">
 						<div class="d-none d-lg-block divider-20"></div>
@@ -339,7 +405,7 @@
 						<div class="col-12 col-lg-4  order-lg-3">
 							<div class="step-left-part part4">
 								<h2 class="step-title color1">
-									<span class="color-main4">04</span>Perfectionnement Progressif</h2>
+									<span class="color-main4">04</span>Progrès Continu</h2>
 							</div>
 						</div>
 						<div class="col-12 col-lg-4 order-lg-2">
@@ -360,7 +426,7 @@
 				</div>
 			</section>
 
-			<section class="ls s-pt-50 s-pb-130 gallery-title">
+			<section id="Projets" class="ls s-pt-50 s-pb-130 gallery-title">
 							<div class="text-block text-center">	
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
@@ -381,16 +447,16 @@
 					
 														<div class="vertical-item text-center ls ms">
 															<div class="item-media">
-																<img src="images/gallery/01.jpg" alt="">
-																<div class="media-links">
+																	<img src="img/chatallaitement.png" alt="Chat Allaitement">
+																<div class="media-links">																
 																</div>
 															</div>
 															<div class="item-content">
 																<h6>
-																	<a href="/gallery-item3.html">Allaitement Québec</a>
+																	<a>Allaitement Québec</a>
 																</h6>
 																<div class="small-text link-a">
-																	<a href="https://chat.allaitementquebec.org/">chat.allaitementquebec.org</a>
+																	<a href="https://chat.allaitementquebec.org/" target="_blank">chat.allaitementquebec.org</a>
 																</div>
 					
 															</div>
@@ -401,16 +467,16 @@
 													<div class="col-xl-6 col-sm-6 advertisement branding">
 														<div class="vertical-item text-center ls ms">
 															<div class="item-media">
-																<img src="images/gallery/02.jpg" alt="">
-																<div class="media-links">
+																		<img src="img/festivalcanin.png" alt="">
+																<div class="media-links">	
 																</div>
 															</div>
 															<div class="item-content">
 																<h6>
-																	<a href="/gallery-item3.html">Festival canin de Dégelis</a>
+																	<a>Festival canin de Dégelis</a>
 																</h6>
 																<div class="small-text link-a">
-																	<a href="https://www.festivalcanin.com/">festivalcanin.com</a>
+																	<a href="https://www.festivalcanin.com/" target="_blank">festivalcanin.com</a>
 																</div>
 					
 															</div>
@@ -425,102 +491,35 @@
 
 						<div class="divider-30"></div>
 						<div class="text-center img-wrap col-md-12">
-							<div>
-								<img src="img/vertical_line.png" alt="">
-							</div>
-							<div class="divider-40"></div>
-							<h4>Témoignages</h4>
-							<div class="divider-40"></div>
-							<div>
-								<img src="img/vertical_line.png" alt="">
-							</div>
 
 
 					<div class="divider-10"></div>
 			</section>
 
-			<section class="ls ms blog-post-carousel">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-12">
-							<div class="owl-carousel" data-responsive-lg="4" data-responsive-md="3" data-responsive-sm="2" data-responsive-xs="1" data-nav="false" data-dots="false" data-loop="true" data-margin="4">
-								<article class="box text-center">
-									<div class="item-content">
-										<p class="small-text">
-											<a href="#">December 29, 2017</a>
-										</p>
-										<h6>
-											<a href="#">Traffic control test by New York Cabs program</a>
-										</h6>
-										<div class="post-author">
-											<img src="images/small_author.png" alt="">
-											<p>
-												<a href="#">by Admin</a>
-											</p>
-										</div>
-									</div>
-									<!-- .item-content -->
-								</article>
-								<!-- #post-## -->
-								<article class="box text-center">
-									<div class="item-content ">
-										<p class="small-text">
-											<a href="#">December 26, 2017</a>
-										</p>
-										<h6>
-											<a href="#">Live support, key of an endless satisfaction</a>
-										</h6>
-										<div class="post-author">
-											<img src="images/small_author.png" alt="">
-											<p>
-												<a href="#">by Admin</a>
-											</p>
-										</div>
-									</div>
-									<!-- .item-content -->
-								</article>
-								<!-- #post-## -->
-								<article class="box text-center">
-									<div class="item-content ">
-										<p class="small-text">
-											<a href="#">December 21, 2017</a>
-										</p>
-										<h6>
-											<a href="#">Strong servers, customer friendly services</a>
-										</h6>
-										<div class="post-author">
-											<img src="images/small_author.png" alt="">
-											<p>
-												<a href="#">by Admin</a>
-											</p>
-										</div>
-									</div>
-									<!-- .item-content -->
-								</article>
-								<!-- #post-## -->
-								<article class="box text-center">
-									<div class="item-content ">
-										<p class="small-text">
-											<a href="#">December 15, 2017</a>
-										</p>
-										<h6>
-											<a href="#">Weekly meeting in companies Think Room</a>
-										</h6>
-										<div class="post-author">
-											<img src="images/small_author.png" alt="">
-											<p>
-												<a href="#">by Admin</a>
-											</p>
-										</div>
-									</div>
-									<!-- .item-content -->
-								</article>
-								<!-- #post-## -->
+			<section class="ls s-pt-20 s-pb-130 s-pb-lg-100 testimonials-page">
+				<div class="container">
+					<div id="Temoignage" class="text-block text-center">	
+						<h5>
+							Témoignages
+						</h5>
+					</div>		
+					<div class="divider-75 d-none d-xl-block"></div>
+					<div class="row c-mb-lg-30 c-gutter-60">
+						<div class="col-md-6">
+							<div class="text-center">
+								<h6>
+									Allaitement Québec
+								</h6>
+								<p>
+								Le projet a été réalisé très professionnellement et ils ont été présents tout au long du processus. Ils avaient à cœur de nous tenir informés des avancements. Ils étaient très à l'écoute des besoins exprimés et prenaient le temps de bien expliquer les étapes en termes clairs pour une personne ne travaillant pas dans le domaine de l'informatique.
+								</p>
 							</div>
-						</div>
+						</div>					
 					</div>
+					<div class="divider-70 d-none d-xl-block"></div>
 				</div>
 			</section>
+			
 
 			<section class="s-pt-130 s-pb-15 s-pb-md-50 s-pt-xl-100 s-pb-lg-30 overflow-visible s-parallax testimonials-sliders main-testimonials ds" id="testimonials">
 				<div class="corner ls ms"></div>
@@ -536,14 +535,14 @@
 					</div>
 				</div>
 				<div class="testimonials-btn text-center">
-					<a href="#quote" class="btn-maincolor">
+					<a href="#Accueil" class="btn-maincolor">
 						<i class="fa fa-angle-up"></i>
 					</a>
 				</div>
 				<div class="corner corner-light"></div>
 			</section>
 
-			<section class="s-pt-130 s-pt-md-50 ls text-section">
+			<section id="Contacte" class="s-pt-130 s-pt-md-50 ls text-section">
 				<div class="divider-30"></div>
 				<div class="container">
 					<div class="row">
@@ -563,7 +562,7 @@
 							<img src="img/vertical_line.png" alt="">
 							<div>
 								<div class="divider-40"></div>
-								<a href="#" class="btn btn-outline-maincolor">Parlons-en ! </a>
+								<a href="#ContacteForm" class="btn btn-outline-maincolor">Parlons-en ! </a>
 								<div class="divider-30"></div>
 							</div>
 							<div class="img-wrap overflow-visible">
@@ -583,7 +582,7 @@
 					<div class="divider-60 d-none d-xl-block"></div>
 					<div class="row">
 						<div class="col-lg-12 ">
-							<form class="contact-form" method="post" action="/">
+							<for class="contact-form" method="post" action="/">
 
 								<div class="row c-gutter-20">
 
@@ -643,7 +642,6 @@
 							<div class="divider-20 d-none d-xl-block"></div>
 							<div class="col-md-12 mt-4 text-center animate" data-animation="fadeInUp">
 								<h1>Hestenn</h1>
-								<p>contact@hestenn.com</p>
 								</div>
 							</div>
 						</div>
@@ -674,7 +672,7 @@
 
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
-
+	<script src="js/navigation.js"></script>
 
 </body>
 

@@ -14,28 +14,31 @@
                     <ul class="nav sf-menu">
 
 
-                        <li class="active">
-                            <a href="index.html">Accueil</a>                         
+                        <li>
+                            <a href="#Accueil">Accueil</a>                         
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <a href="#Apropos">À propos</a>
+                        </li>
+
+                        <li>
+                            <a href="#Service">Services</a>
                         </li>
                         <!-- blog -->
 
                         <!-- gallery -->
                         <li>
-                            <a href="gallery-regular.html">Nos projets</a>
+                            <a href="#Projets">Nos projets</a>
                            
                         </li>
                         <!-- eof pages -->
-
                         <li>
-                            <a href="about.html">Notre Équipe</a>
-                        </li>
+                            <a href="#Temoignage">Témoignages</a>
+                        </li>        
                         <!-- eof blog -->
 
                         <li>
-                            <a href="contact.html">Contacts</a>           
+                            <a href="#Contacte">Contact</a>           
                         </li>
 
                     </ul>
@@ -58,3 +61,5 @@
 					</span>
 </header>
 </div>
+
+<script src="js/navigation.js"></script>
