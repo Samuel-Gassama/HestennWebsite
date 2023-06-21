@@ -94,7 +94,7 @@
 {{--														<span class="color-main3">Marketing</span> &--}}
 {{--														<span class="color-main4">SEO</span>--}}
 													</h3>
-												</div>				
+												</div>
 											</div>
 											<!-- eof .intro_layers -->
 										</div>
@@ -105,7 +105,7 @@
 								<!-- eof .row -->
 							</div>
 							<!-- eof .container -->
-						</li>		
+						</li>
 
 					</ul>
 				</div>
@@ -149,7 +149,7 @@
 				<div class="divider-10 d-none d-xl-block"></div>
 				<div class="container">
 					<div class="row c-mt-50 c-mt-lg-0">
-						<div class="col-lg-4 text-center call-icon">						
+						<div class="col-lg-4 text-center call-icon">
 							<h6>
 								Qui sommes-nous
 							</h6>
@@ -157,20 +157,20 @@
 								<p>
 									Chez Hestenn, nous sommes une équipe passionnée de développement web composée de deux développeurs dévoués.
 									Notre objectif est de créer des sites web uniques qui captent l'essence de nos clients et reflètent leur identité de manière authentique.
-									Nous croyons fermement que chaque entreprise mérite une présence en ligne qui lui ressemble, et c'est pourquoi nous mettons tout en œuvre pour offrir des solutions personnalisées. 
+									Nous croyons fermement que chaque entreprise mérite une présence en ligne qui lui ressemble, et c'est pourquoi nous mettons tout en œuvre pour offrir des solutions personnalisées.
 									Avec notre expertise technique et notre sensibilité artistique, nous sommes là pour donner vie à votre vision et vous aider à établir une connexion significative avec votre public.
 								</p>
 							</div>
 						</div>
 						<div class="col-lg-4 text-center write-icon">
-							<div class="divider-30 d-none d-xl-block"></div>							
+							<div class="divider-30 d-none d-xl-block"></div>
 							<div class="icon-content">
 								<h6>
 									Que faisons-nous
 								</h6>
 								<p>
-									Notre principal métier est de créer des sites web sur mesure qui répondent aux besoins spécifiques de nos clients. 
-									Nous nous engageons à concevoir des expériences en ligne exceptionnelles, en accordant une attention particulière aux détails et à l'ergonomie. 
+									Notre principal métier est de créer des sites web sur mesure qui répondent aux besoins spécifiques de nos clients.
+									Nous nous engageons à concevoir des expériences en ligne exceptionnelles, en accordant une attention particulière aux détails et à l'ergonomie.
 									Notre approche centrée sur l'utilisateur nous permet de comprendre vos objectifs, votre marché cible et votre identité de marque afin de concevoir des sites web intuitifs et esthétiquement plaisants.
 								</p>
 							</div>
@@ -181,8 +181,8 @@
 									Pourquoi nous le faisons
 								</h6>
 								<p>
-									Nous croyons au pouvoir de la présence en ligne pour renforcer les liens entre les entreprises et leurs clients, stimuler la croissance et favoriser l'engagement. 
-									En tant que développeurs web passionnés, nous combinons notre expertise technique et notre créativité pour créer des expériences digitales uniques. Notre engagement se traduit par une étroite collaboration avec nos clients, en écoutant attentivement leurs besoins et en offrant des solutions sur mesure qui renforcent leur image de marque et optimisent leur performance en ligne. 
+									Nous croyons au pouvoir de la présence en ligne pour renforcer les liens entre les entreprises et leurs clients, stimuler la croissance et favoriser l'engagement.
+									En tant que développeurs web passionnés, nous combinons notre expertise technique et notre créativité pour créer des expériences digitales uniques. Notre engagement se traduit par une étroite collaboration avec nos clients, en écoutant attentivement leurs besoins et en offrant des solutions sur mesure qui renforcent leur image de marque et optimisent leur performance en ligne.
 									La réussite de nos clients est notre plus grande satisfaction.
 								</p>
 							</div>
@@ -210,7 +210,7 @@
 								<div class="divider-30"></div>
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
-								</div>					
+								</div>
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
 								</div>
@@ -343,7 +343,7 @@
 			<section class="s-pt-100 s-pt-lg-130 ds process-part skew_right s-parallax top_white_line_big overflow-visible" id="steps">
 				<div class="container">
 					<div class="divider-65"></div>
-					
+
 					<div class="row align-items-center c-mb-20 c-mb-lg-60">
 						<div class="col-12 col-lg-4">
 							<div class="step-left-part text-right">
@@ -427,7 +427,7 @@
 			</section>
 
 			<section id="Projets" class="ls s-pt-50 s-pb-130 gallery-title">
-							<div class="text-block text-center">	
+							<div class="text-block text-center">
 								<div class="img-wrap text-center">
 									<img src="img/vertical_line.png" alt="">
 									<div class="divider-35"></div>
@@ -439,16 +439,16 @@
 									<div class="container">
 										<div class="row">
 											<div class="col-lg-12">
-												
-					
+
+
 												<div class="row isotope-wrapper masonry-layout c-gutter-10 c-mb-10" data-filters=".gallery-filters">
-					
+
 													<div class="col-xl-6 col-sm-6 web-design logo-design">
-					
+
 														<div class="vertical-item text-center ls ms">
 															<div class="item-media">
 																	<img src="img/chatallaitement.png" alt="Chat Allaitement">
-																<div class="media-links">																
+																<div class="media-links">
 																</div>
 															</div>
 															<div class="item-content">
@@ -458,17 +458,17 @@
 																<div class="small-text link-a">
 																	<a href="https://chat.allaitementquebec.org/" target="_blank">chat.allaitementquebec.org</a>
 																</div>
-					
+
 															</div>
 														</div>
-					
+
 													</div>
-					
+
 													<div class="col-xl-6 col-sm-6 advertisement branding">
 														<div class="vertical-item text-center ls ms">
 															<div class="item-media">
 																		<img src="img/festivalcanin.png" alt="">
-																<div class="media-links">	
+																<div class="media-links">
 																</div>
 															</div>
 															<div class="item-content">
@@ -478,12 +478,12 @@
 																<div class="small-text link-a">
 																	<a href="https://www.festivalcanin.com/" target="_blank">festivalcanin.com</a>
 																</div>
-					
+
 															</div>
 														</div>
 													</div>
 											</div>
-												<!-- .isotope-wrapper-->			
+												<!-- .isotope-wrapper-->
 											</div>
 										</div>
 									</div>
@@ -498,11 +498,11 @@
 
 			<section class="ls s-pt-20 s-pb-130 s-pb-lg-100 testimonials-page">
 				<div class="container">
-					<div id="Temoignage" class="text-block text-center">	
+					<div id="Temoignage" class="text-block text-center">
 						<h5>
 							Témoignages
 						</h5>
-					</div>		
+					</div>
 					<div class="divider-75 d-none d-xl-block"></div>
 					<div class="row c-mb-lg-30 c-gutter-60">
 						<div class="col-md-6">
@@ -514,19 +514,19 @@
 								Le projet a été réalisé très professionnellement et ils ont été présents tout au long du processus. Ils avaient à cœur de nous tenir informés des avancements. Ils étaient très à l'écoute des besoins exprimés et prenaient le temps de bien expliquer les étapes en termes clairs pour une personne ne travaillant pas dans le domaine de l'informatique.
 								</p>
 							</div>
-						</div>					
+						</div>
 					</div>
 					<div class="divider-70 d-none d-xl-block"></div>
 				</div>
 			</section>
-			
+
 
 			<section class="s-pt-130 s-pb-15 s-pb-md-50 s-pt-xl-100 s-pb-lg-30 overflow-visible s-parallax testimonials-sliders main-testimonials ds" id="testimonials">
 				<div class="corner ls ms"></div>
 				<div class="container">
 					<div class="row c-mt-30 c-mt-md-0">
 						<div class="divider-40 d-none d-md-block"></div>
-						
+
 						<div class="divider-55 d-none d-md-block"></div>
 						<div class="text-center img-wrap col-md-12">
 							<img src="img/vertical_line2.png" alt="">
@@ -575,66 +575,65 @@
 				</div>
 			</section>
 
-			<section class="ls s-pt-30 s-pb-100 s-pb-md-130 s-py-lg-100 contact2">
-				<div class="divider-15 d-none d-xl-block"></div>
-				<div class="container">
+            <section class="ls s-pt-30 s-pt-lg-75 s-pb-130 contact4">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center"> <!-- Added align-items-center class to center vertically -->
 
-					<div class="divider-60 d-none d-xl-block"></div>
-					<div class="row">
-						<div class="col-lg-12 ">
-							<for class="contact-form" method="post" action="/">
+                        <div class="divider-40 d-none d-xl-block"></div>
 
-								<div class="row c-gutter-20">
+                        <!-- .col-* -->
+                        <div class="col-lg-4 text-center"> <!-- Added text-center class to center the content horizontally -->
+                            <div>
+                                <h4 class="header" style="font-size: 45px;">
+                                    Informations de contact
+                                </h4>
 
-									<div class="col-12 col-md-6">
-										<div class="form-group has-placeholder">
-											<label for="name">Nom et prénom
-												<span class="required">*</span>
-											</label>
-											<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control text-left" placeholder="Nom et prénom">
-										</div>
-										<div class="form-group has-placeholder ">
-											<label for="email">Adresse courriel
-												<span class="required">*</span>
-											</label>
-											<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control text-left" placeholder="Adresse courriel">
-										</div>
-										<div class="form-group has-placeholder">
-											<label for="subject">Sujet
-												<span class="required">*</span>
-											</label>
-											<input type="text" aria-required="true" size="30" value="" name="subject" id="subject" class="form-control text-left" placeholder="Sujet">
-										</div>
-									</div>
-									<div class="col-12 col-md-6">
+                                <div class="media mb-10">
+                                    <div class="icon-styled color-main fs-16">
+                                        <i class="fa fa-map-marker"></i>
+                                    </div>
 
-										<div class="form-group has-placeholder">
-											<label for="message">Message</label>
-											<textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control text-left" placeholder="Votre message"></textarea>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-12">
-										<div class="form-group text-center">
-											<button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor">Envoyer votre message</button>
-										</div>
-									</div>
+                                    <div class="media-body">
+                                        <p>
+                                            Montréal, QC, Canada
+                                        </p>
+                                    </div>
+                                </div>
 
-								</div>
-							</form>
+                                <div class="media mb-10">
+                                    <div class="icon-styled color-main fs-16">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
 
-						</div>
-						<!--.col-* -->
+                                    <div class="media-body">
+                                        <p>
+                                            1-450-234-0667
+                                        </p>
+                                    </div>
+                                </div>
 
-						<div class="divider-80 d-none d-xl-block"></div>
+                                <div class="media mb-40">
+                                    <div class="icon-styled color-main fs-16">
+                                        <i class="fa fa-pencil"></i>
+                                    </div>
 
-					</div>
-				</div>
-			</section>
+                                    <div class="media-body">
+                                        <p class="color-dark">
+                                            hestenn.company@gmail.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .col-* -->
+
+                        <div class="divider-60 d-none d-xl-block"></div>
+                    </div>
+                </div>
+            </section>
 
 
-			<footer class="page_footer corner-footer ds s-pt-30 s-pb-0 s-pb-lg-10 s-pb-xl-50 c-gutter-60 s-parallax">
+            <footer class="page_footer corner-footer ds s-pt-30 s-pb-0 s-pb-lg-10 s-pb-xl-50 c-gutter-60 s-parallax">
 
 				<div class="container">
 					<div class="container">
